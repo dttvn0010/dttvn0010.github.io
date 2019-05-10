@@ -1,0 +1,2 @@
+APIKEY :  _jTCIqe9KRZCvH0J_pRDdlVMEtsjlJ4IwutTN7L_oM6R
+https://gateway.watsonplatform.net/language-translator/api
