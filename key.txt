@@ -1,4 +1,4 @@
 APIKEY :  _jTCIqe9KRZCvH0J_pRDdlVMEtsjlJ4IwutTN7L_oM6R
 https://gateway.watsonplatform.net/language-translator/api
 
-curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" "{url}/v3/translate?version=2018-05-01"
+curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" "{url}/v3/translate?version=2018-05-01" 
