@@ -1,4 +1,2 @@
-APIKEY :  _jTCIqe9KRZCvH0J_pRDdlVMEtsjlJ4IwutTN7L_oM6R
-https://gateway.watsonplatform.net/language-translator/api
-
-curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" "{url}/v3/translate?version=2018-05-01" 
+clientID : 213760938760-ktdgat13mh99amn1b75otsuf8nvm2edi.apps.googleusercontent.com
+secret : 8wAUBKI7zR56UMFwkZRfhcTm
