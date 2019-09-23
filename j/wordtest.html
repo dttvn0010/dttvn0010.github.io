@@ -1,0 +1,126 @@
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/e2db74ebd5.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<audio id="audio"></audio>
+<style>
+.keyword {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.latin {
+    font-size: 24px;
+}
+</style>
+
+<div id='app' v-if="words.length > 0" class='container mt-3'>
+<div>
+    <font class='keyword'>{{ words[index][scheme] }} </font>
+    <button v-on:click="play(words[index].latin)"><i class="fa fa-volume-up"></i></button>
+    <button v-on:click="showDetail=!showDetail"><i class="fa fa-binoculars"></i></button>    
+</div>
+<p v-if="showDetail" class='latin'> {{ words[index].latin }}, {{ words[index].hira }}, {{ words[index].kanji }} </p>
+<br>
+<p v-for='(choice, i) in choices'><input name='word' type='radio' :value='i' v-model='ans'> {{ choice }}</p>
+
+<p v-if='showCorrect' style='color:green'> Correct </p>
+<p v-if='showInCorrect' style='color:red'> Incorrect </p>
+<p v-if='showResult'>Number of correct answers : {{ nCorrect }} / {{ words.length }}</p>
+
+<button class='btn btn-primary' v-on:click="checkAns()">Check</button>
+<button class='btn btn-secondary' v-if="index < (words.length - 1)" v-on:click="next()">Next</button>
+<button class='btn btn-secondary' v-if="index == (words.length - 1)" v-on:click="sumamry()">Show result</button>
+</div>
+
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    words: [],
+    choices: [],
+    correctAns : 0,
+    ans: '',
+    nCorrect : 0,
+    showDetail: false,
+    showCorrect: false,
+    showInCorrect: false,
+    showResult: false,
+    index: 0, 
+    scheme: '',
+    unit : 1
+  },
+  methods: {
+    play : function(word) {
+        var audio = document.getElementById('audio');
+        audio.src = `audio/Unit${this.unit}/${word}.ogg`;
+        audio.play();
+    },
+    getParam: function(name) {
+        if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+            return decodeURIComponent(name[1]);
+    },
+    createQuiz: function() {
+        this.showDetail = this.showCorrect = this.showInCorrect = false;
+        this.choices = [];        
+        rand_indexes = [];
+        this.correctAns = (4 * Math.random()) | 0;
+        for(let i = 0; i <= 4; i++) {
+            if(i == this.correctAns) {
+                this.choices.push(this.words[this.index].meaning);
+            }else {
+                while(true) {
+                    let j = (this.words.length * Math.random()) | 0;
+                    if(!rand_indexes.includes(j) && j != this.index) {
+                        rand_indexes.push(j);
+                        this.choices.push(this.words[j].meaning);
+                        break;
+                    }
+                }
+            }
+        }
+        this.ans = '';
+    },
+    checkAns: function() {
+        if(parseInt(this.ans) == this.correctAns) {
+            this.showInCorrect = false;
+            this.showCorrect = true;
+        }else {
+            this.showCorrect = false;
+            this.showInCorrect = true;
+        }
+    },
+    next: function() {
+        if(parseInt(this.ans) == this.correctAns) {
+            this.nCorrect += 1;
+        }
+        this.index += 1;
+        this.createQuiz();
+    },
+    sumamry: function() {
+        if(parseInt(this.ans) == this.correctAns) {
+            this.nCorrect += 1;
+        }
+        this.showResult = true;
+    }
+  },
+  created : function() {
+    this.scheme = this.getParam('scheme') || 'hira';
+    this.unit = this.getParam('unit') || 1;
+    fetch(`data/unit${this.unit}.json`).then(res => res.json()).then(result => {
+        this.words = result;
+        
+        // shuffle 
+        for (let i = this.words.length - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            let temp = this.words[i];
+            this.words[i] = this.words[j];
+            this.words[j] = temp;
+        }
+        
+        this.index = 0;
+        this.createQuiz();
+    });
+  }
+});
+</script>

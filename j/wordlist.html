@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/e2db74ebd5.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<audio id="audio"></audio>
+<div id='app'>
+    <table class='table'>
+        <tr v-for='word in words'>
+            <td><button v-on:click="play(word.latin)"><i class="fa fa-volume-up"></i></button> {{ word.latin }}</td>
+            <td>{{ word.hira }}</td>
+            <td>{{ word.kanji }}</td>
+            <td>{{ word.meaning }}</td>
+        </tr>
+    </table>
+</div>
+
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    words: [],
+    unit : 1
+  },
+  methods: {
+    play : function(word) {
+        var audio = document.getElementById('audio');
+        audio.src = `audio/Unit${this.unit}/${word}.ogg`;
+        audio.play();
+    },
+    getParam: function(name) {
+        if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+            return decodeURIComponent(name[1]);
+    }
+  },
+  created : function() {
+  this.unit = this.getParam('unit') | 1;
+    fetch(`data/unit${this.unit}.json`).then(res => res.json()).then(result => {
+        this.words = result;
+    });
+  }
+});
+</script>

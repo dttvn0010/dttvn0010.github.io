@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/e2db74ebd5.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<div id="app" class='container mt-5'>
+    <input type="radio" value="hira" v-model="scheme">Hiragana 
+    <input type="radio" value="kanji" v-model="scheme">Kanji
+    
+    <ul>
+        <li v-for='unit in units'><a href='#' v-on:click="gotoUnit(unit)">Unit {{ unit }}</a></li>
+    </ul>
+</div>
+
+<script>
+new Vue({
+    'el' : '#app',
+    data: {
+        units: [1, 2, 3, 4, 5],
+        scheme: 'hira',
+    },
+    methods : {
+        gotoUnit : function(unit) {
+            location.href = `wordtest.html?unit=${unit}&scheme=${this.scheme}`;
+        }
+    }    
+});
+</script>
