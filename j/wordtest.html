@@ -12,6 +12,14 @@
 .latin {
     font-size: 24px;
 }
+
+.choice {
+    font-size: 20px;
+}
+
+input[type='radio'] { 
+    transform: scale(2); 
+}
 </style>
 
 <div id='app' v-if="words.length > 0" class='container mt-3'>
@@ -22,7 +30,9 @@
 </div>
 <p v-if="showDetail" class='latin'> {{ words[index].latin }}, {{ words[index].hira }}, {{ words[index].kanji }} </p>
 <br>
-<p v-for='(choice, i) in choices'><input name='word' type='radio' :value='i' v-model='ans'> {{ choice }}</p>
+<p v-for='(choice, i) in choices'>
+    <input name='word' type='radio' :value='i' v-model='ans'> &nbsp;&nbsp; <font class='choice'> {{ choice }} </font>
+</p>
 
 <p v-if='showCorrect' style='color:green'> Correct </p>
 <p v-if='showInCorrect' style='color:red'> Incorrect </p>
