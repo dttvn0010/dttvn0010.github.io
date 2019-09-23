@@ -4,6 +4,12 @@
 <audio id="audio"></audio>
 <div id='app' class="container">
     <table class='table'>
+        <tr>
+            <th style="width:20%">Latin</th>
+            <th style="width:20%">Hiragana</th>
+            <th style="width:15%">Kanki</th>
+            <th>Meaning</th>
+        </tr>
         <tr v-for='word in words'>
             <td><button v-on:click="play(word.latin)"><i class="fa fa-volume-up"></i></button> {{ word.latin }}</td>
             <td>{{ word.hira }}</td>
@@ -32,7 +38,7 @@ var app = new Vue({
     }
   },
   created : function() {
-  this.unit = this.getParam('unit') | 1;
+  this.unit = this.getParam('unit') || 1;
     fetch(`data/unit${this.unit}.json`).then(res => res.json()).then(result => {
         this.words = result;
     });
