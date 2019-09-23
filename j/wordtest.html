@@ -25,8 +25,8 @@ input[type='radio'] {
 <div id='app' v-if="words.length > 0" class='container mt-3'>
 <div>
     <font class='keyword'>{{ words[index][scheme] }} </font>
-    <button v-on:click="play(words[index].latin)"><i class="fa fa-volume-up"></i></button>
-    <button v-on:click="showDetail=!showDetail"><i class="fa fa-binoculars"></i></button>    
+    <button class='btn-lg' v-on:click="play(words[index].latin)"><i class="fa fa-volume-up"></i></button>
+    <button class='btn-lg' v-on:click="showDetail=!showDetail"><i class="fa fa-binoculars"></i></button>    
 </div>
 <p v-if="showDetail" class='latin'> {{ words[index].latin }}, {{ words[index].hira }}, {{ words[index].kanji }} </p>
 <br>
