@@ -18,6 +18,16 @@
     <div class="row">
       <div class="col-3">
         <div class="row">
+          <select id="dataSetSel" onchange="changeDataSet(this)" class="form-control">
+            <option value="0">Set 1</option>
+            <option value="1">Set 2</option>
+            <option value="2">Set 3</option>
+            <option value="3">Set 4</option>
+            <option value="4">Set 5</option>
+            <option value="5">Set 5.2</option>
+          </select>
+        </div>
+        <div class="row mt-3">
           <label style="vertical-align: top;">DX</label>
           <input onmousemove="updateScreen()" class="slider" type="range" min="-500" max="500" value="0" id="dx">
         </div>
@@ -36,7 +46,7 @@
 
         </div>
         <div class="row >
-          <label style="vertical-align: top;">RY</label>
+          <label style=" vertical-align: top;">RY</label>
           <input onmousemove="updateScreen()" class="slider" type="range" min="-180" max="180" value="0" id="ry">
 
         </div>
@@ -54,25 +64,25 @@
   <script src="js/OrbitControls.js"></script>
   <script src="js/handLoader.js"></script>
 
-  <script>   
-
-    function myFunction() {
-      alert('test');
-    }
-
-    document.getElementById("dx").addEventListener("move", myFunction);
-
+  <script>
+    
     function updateScreen() {
-      var dx = 2*document.getElementById('dx').value / 1000.0;
-      var dy = 2*document.getElementById('dy').value / 1000.0;
-      var dz = 2*document.getElementById('dz').value / 1000.0;
-      var rx = 0.1*document.getElementById('rx').value * Math.PI/180;
-      var ry = 0.1*document.getElementById('ry').value * Math.PI/180;
-      var rz = 0.1*document.getElementById('rz').value * Math.PI/180;
+      var dx = 0.5 * document.getElementById('dx').value / 1000.0;
+      var dy = 0.5 * document.getElementById('dy').value / 1000.0;
+      var dz = 0.5 * document.getElementById('dz').value / 1000.0;
+      var rx = 0.1 * document.getElementById('rx').value * Math.PI / 180;
+      var ry = 0.1 * document.getElementById('ry').value * Math.PI / 180;
+      var rz = 0.1 * document.getElementById('rz').value * Math.PI / 180;
       mesh.position.set(dx, dy, dz);
       mesh.rotation.set(rx, ry, rz);
       render();
     }
+
+    async function changeDataSet(sel) {
+      location.href = '?set_index=' + sel.value;
+    }
+
+    document.getElementById('dataSetSel').value = getParam('set_index') || 0;
 
   </script>
 </body>

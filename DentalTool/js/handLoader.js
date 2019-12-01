@@ -2,7 +2,124 @@ if (!Detector.webgl) Detector.addGetWebGLMessage();
 
 var camera, scene, renderer, mesh;
 
-init().then(_ => {});
+var data = [
+  {
+    crown : {
+      dx:-9.56863,
+      dy:13.74088,
+      dz:-19.46833,
+      rx:0.0462,
+      ry:0.22908,
+      rz:0.99081,
+      model_url: 'data/set1/crown.stl'
+    },
+    root: {
+      dx:-18.948864,
+      dy:14.224266,
+      dz:15.830048,
+      mirrorZ: true,
+      model_url: 'data/set1/root.stl'
+    }
+  },
+  {
+    crown : {
+      dx:-13.5375,
+      dy:6.82425,
+      dz:-18.64405,
+      rx:-0.06968,
+      ry:0.07714,
+      rz:0.7473,
+      model_url: 'data/set2/crown.stl'
+    },
+    root: {
+      dx:-25.776840,
+      dy:9.337918,
+      dz:16.283157,
+      mirrorZ: true,
+      model_url: 'data/set2/root.stl'
+    }
+  },
+  {
+    crown : {
+      dx:-8.49686,
+      dy:8.10215,
+      dz:-20.93944,
+      rx:0.08482,
+      ry:-0.0181,
+      rz:-0.28591,
+      model_url: 'data/set3/crown.stl'
+    },
+    root: {
+      dx:-2.046701,
+      dy:19.782413,
+      dz:17.916336,
+      mirrorZ: true,
+      model_url: 'data/set3/root.stl'
+    }
+  },
+  {
+    crown : {
+      dx:-4.49828,
+      dy:5.78963,
+      dz:-20.54668,
+      rx:0.03128,
+      ry:0.10968,
+      rz:-0.10602,
+      model_url: 'data/set4/crown.stl'
+    },
+    root: {
+      dx:-35.259521,
+      dy:3.709407,
+      dz:12.627400	,
+      mirrorZ: true,
+      model_url: 'data/set4/root.stl'
+    }
+  },  
+  {
+    crown : {
+      dx:-8.50759,
+      dy:16.12546,
+      dz:-20.05471,
+      rx:-0.04532,
+      ry:0.04051,
+      rz:2.38073,
+      model_url: 'data/set5/crown.stl'
+    },
+    root: {
+      dx:-6.628056,
+      dy:15.763657,
+      dz:24.000975,
+      mirrorZ: true,
+      model_url: 'data/set5/root.stl'
+    }
+  },
+
+  {
+    crown : {
+      dx:-8.26205,
+      dy:16.14826,
+      dz:-19.96519,
+      rx:0.04762,
+      ry:0.04756,
+      rz:-0.7159,
+      model_url: 'data/set5/crown.stl'
+    },
+    root: {
+      dx:-6.628056,
+      dy:15.763657,
+      dz:24.000975,
+      mirrorZ: true,
+      model_url: 'data/set5/root.stl'
+    }
+  },  
+]
+
+function getParam(name) {
+  if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search))
+    return decodeURIComponent(name[1]);
+}
+
+loadData(getParam('set_index') || 0).then(_ => {});
 
 function getCenter(vertices) {
   let count = vertices.length / 3;
@@ -90,13 +207,13 @@ function parseBinary(data, dx, dy, dz, rx, ry, rz, mirrorZ){
   return geometry;
 }
 
-async function loadData(url, dx, dy, dz, rx, ry, rz, mirrorZ, transparent, color) {
-  var response = await fetch(url);
+async function loadItem(item, transparent, color) {
+  var response = await fetch(item.model_url);
   var buffer = await response.arrayBuffer();
-  var geometry = parseBinary(buffer, dx, dy, dz, rx, ry, rz, mirrorZ);
+  var geometry = parseBinary(buffer, item.dx, item.dy, item.dz, item.rx || 0, item.ry || 0, item.rz || 0, item.mirrorZ);
   var material = new THREE.MeshPhongMaterial({ color: color, shininess: 200 });
   var mesh = new THREE.Mesh(geometry, material);
-  if(mirrorZ){
+  if(item.mirrorZ){
     mesh.material.side = THREE.BackSide;
   }
   
@@ -111,7 +228,7 @@ async function loadData(url, dx, dy, dz, rx, ry, rz, mirrorZ, transparent, color
   return mesh;
 }
 
-async function init() {
+async function loadData(set_index) {
 
   scene = new THREE.Scene();
   scene.add(new THREE.AmbientLight(0x999999));
@@ -138,10 +255,10 @@ async function init() {
   //renderer.setSize(window.innerWidth, window.innerHeight);
   document.getElementById('screen').appendChild(renderer.domElement);
 
-  mesh = await loadData('models/crown.stl', -9.10248+0.055953123, 13.9334955-0.16476549, -22.370579+1.913591, 0.042853773,0.21263692,0.99660957, false, 0.25, 0x0000ff);
+  mesh = await loadItem(data[set_index].crown, 0.33, 0x0000ff);
   scene.add(mesh);
 
-  root = await loadData('models/root.stl', -18.845896, 14.533778, 14.751112, 0, 0, 0, true, 1.0, 0xff0000);  
+  root = await loadItem(data[set_index].root, 1.0, 0xff0000);  
   scene.add(root);
 
   render();  
@@ -151,7 +268,6 @@ async function init() {
   controls.target.set(0, 1.2, 2);
   controls.update();
   window.addEventListener('resize', onWindowResize, false);
-
 }
 
 function onWindowResize() {
