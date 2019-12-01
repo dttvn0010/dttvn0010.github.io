@@ -3,6 +3,7 @@ if (!Detector.webgl) Detector.addGetWebGLMessage();
 var camera, scene, renderer, mesh;
 
 var data = [
+  //set 1.1
   {
     crown : {
       dx:-9.56863,
@@ -21,6 +22,27 @@ var data = [
       model_url: 'data/set1/root.stl'
     }
   },
+  //set 1.2
+  {
+    crown : {
+      dx:-8.40914,
+      dy:14.5665,
+      dz:-19.50226,
+      rx:0.06546,
+      ry:-0.3288,
+      rz:-2.30687,
+      model_url: 'data/set1/crown.stl'
+    },
+    root: {
+      dx:-18.948864,
+      dy:14.224266,
+      dz:15.830048,
+      mirrorZ: true,
+      model_url: 'data/set1/root.stl'
+    }
+  },
+
+  //set 2.1
   {
     crown : {
       dx:-13.5375,
@@ -39,6 +61,28 @@ var data = [
       model_url: 'data/set2/root.stl'
     }
   },
+
+  //set 2.2 			
+  {
+    crown : {
+      dx:-12.00359,
+      dy:6.0177,
+      dz:-18.64348,
+      rx:0.00734,
+      ry:-0.15573,
+      rz:-2.44717,
+      model_url: 'data/set2/crown.stl'
+    },
+    root: {
+      dx:-25.776840,
+      dy:9.337918,
+      dz:16.283157,
+      mirrorZ: true,
+      model_url: 'data/set2/root.stl'
+    }
+  },
+
+  //set3.1
   {
     crown : {
       dx:-8.49686,
@@ -57,6 +101,47 @@ var data = [
       model_url: 'data/set3/root.stl'
     }
   },
+  // set3.2 		
+  {
+    crown : {
+      dx:-7.93589,
+      dy:9.10968,
+      dz:-20.98606,
+      rx:0.06545,
+      ry:-0.07175,
+      rz:2.86533,
+      model_url: 'data/set3/crown.stl'
+    },
+    root: {
+      dx:-2.046701,
+      dy:19.782413,
+      dz:17.916336,
+      mirrorZ: true,
+      model_url: 'data/set3/root.stl'
+    }
+  },
+
+  //set4.1 	
+  {
+    crown : {
+      dx:-4.44948,
+      dy:5.72138,
+      dz:-20.48734,
+      rx:0.10061,
+      ry:-0.12544,
+      rz:2.65794,
+      model_url: 'data/set4/crown.stl'
+    },
+    root: {
+      dx:-35.259521,
+      dy:3.709407,
+      dz:12.627400	,
+      mirrorZ: true,
+      model_url: 'data/set4/root.stl'
+    }
+  }, 
+  
+  //set4.2
   {
     crown : {
       dx:-4.49828,
@@ -74,7 +159,9 @@ var data = [
       mirrorZ: true,
       model_url: 'data/set4/root.stl'
     }
-  },  
+  },
+  
+  //set 5.1
   {
     crown : {
       dx:-8.50759,
@@ -93,7 +180,7 @@ var data = [
       model_url: 'data/set5/root.stl'
     }
   },
-
+  // set5.2
   {
     crown : {
       dx:-8.26205,
