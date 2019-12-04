@@ -9,6 +9,10 @@
     font-weight: bold;
 }
 
+.legend {
+    font-size: 48px;
+}
+
 .latin {
     font-size: 24px;
 }
@@ -24,7 +28,8 @@ input[type='radio'] {
 
 <div id='app' v-if="words.length > 0" class='container mt-3'>
 <div>
-    <font class='keyword'>{{ words[index][scheme] }} </font>
+    <font class='keyword'>{{ words[index][scheme] }}</font>    
+    <font class='legend' v-if="scheme=='hira'">({{words[index].kanji}})</font>
     <button class='btn-lg' v-on:click="play(words[index].latin)"><i class="fa fa-volume-up"></i></button>
     <button class='btn-lg' v-on:click="showDetail=!showDetail"><i class="fa fa-binoculars"></i></button>    
 </div>
