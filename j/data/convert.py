@@ -1,7 +1,9 @@
 import json
+import sys
 
+unit = sys.argv[1]
 data = []
-with open('unit10.txt', encoding='utf-8') as f:
+with open(unit + '.txt', encoding='utf-8') as f:
     for line in f:
         arr = line.split(';')
         if len(arr) != 4:
@@ -16,7 +18,7 @@ with open('unit10.txt', encoding='utf-8') as f:
             'meaning': meaning
         });
         
-with open('unit10.json', 'w', encoding='utf-8') as f:
+with open(unit + '.json', 'w', encoding='utf-8') as f:
     json.dump(data, f)
         
     

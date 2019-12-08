@@ -1,0 +1,43 @@
+たべます;食べます;tabemasu;eat
+のみます;飲みます;nomimasu;drink
+すいます;吸います;Suimasu;smoke
+みます;見ます;Mimasu;watch
+ききます;聞きます;Kikimasu;listen
+よみます;読みます;Yomimasu;read
+かきます;書きます;Kakimasu;write
+かいます;買います;Kaimasu;buy
+とります;撮ります;Torimasu;take a picture
+します;します;Shimasu;to do
+あいます;会います;Aimasu;meet
+ごはん;ご飯;Gohan;rice
+あさごはん;朝御飯;Asa gohan;breakfast
+ひるごはん;昼御飯;Hiru gohan;luch
+ばんごはん;晩御飯;Ban gohan;dinner
+パン;パン;Pan;bread
+たまご;卵;Tamago;egg
+にく;肉;niku;meat
+さかな;魚;Sakana;fish
+やさい;野菜;Yasai;vegetables
+くだもの;果物;Kudamono;fruit
+みず;水;Mizu;water
+おちゃ;お茶;ocha;tea
+こうちゃ;紅茶;kocha;black tea
+ぎゅうにゅう;牛乳;gyunyu;milk
+ミルク;ミルク;miruku;milk
+おさけ;お酒;osake;wine
+えいが;映画;eiga;movie
+てがみ;手紙;Tegami;letter
+しゃしん;写真;Shashin;photo
+みせ;店;Mise;shop
+にわ;庭;Niwa;garden
+しゅくだい;宿題;Shukudai;homework
+いっしょに;一緒に;Issho ni;together
+ちょっと;一寸;Chotto;A little
+いつも;何時も;Itsumo;always
+ときどき;時々;Tokidoki;sometimes
+それから;其れから;Sore kara;then
+ええ;ええ;Ee;yeah
+いいですね;いいですね;idesu ne;sounds good
+わかりました;分かりました;Wakarimashita;I see
+なんですか;何ですか;Nandesuka;what is it?
+またあした;又明日;Mata ashita;See you tomorrow

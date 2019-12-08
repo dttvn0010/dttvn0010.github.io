@@ -1,0 +1,35 @@
+います;います;imasu;is
+いろいろ;色々;Iroiro;various
+おとこのひと;男の人;Otoko_no_hito;man
+おんなのひと;女の人;Onanohito;woman
+おとこのこ;男の子;Otokonoko;boy
+おんなのこ;女の子;Onnanoko;girl
+いぬ;犬;Inu;dog
+ねこ;猫;neko;cat
+き;木;Ki;wood
+もの;物;Mono;stuff
+でんち;電池;Denchi;battery
+はこ;箱;Hako;box
+れいぞうこ;冷蔵庫;Reizoko;refrigerator
+たな;棚;Tana;shelf
+まど;窓;Mado;window
+こうえん;公園;koen;park
+きっさてん;喫茶店;Kissaten;coffe shop
+ほんや;本屋;honya;bookshop
+や;屋;ya;shop
+のりば;乗り場;Noriba;place for boarding vehicles
+けん;県;Ken;district
+うえ;上;Ue;up
+した;下;Shita;under
+まえ;前;mae;in front of
+うしろ;後ろ;ushiro;behind
+みぎ;右;Migi;right
+ひだり;左;Hidari;left
+なか;中;Naka;medium
+そと;外;soto;outside
+となり;隣;Tonari;beside
+ちかく;近く;Chikaku;near
+あいだ;間;Aida;chamber
+いちばん;一番;ichiban;most
+だんめ;段目;danme;stage
+おく;奥;oku;inner

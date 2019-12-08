@@ -1,0 +1,33 @@
+きります;切ります;Kirimasu;cut
+おくります;送ります;Okurimasu;send
+あげます;挙げます;Agemasu;give
+もらいます;貰らいます;Moraimasu;receive
+かします;貸します;Kashimasu;lend
+かります;借ります;Karimasu;borrow
+おしえます;教えます;Oshiemasu;teach
+ならいます;習います;Naraimasu;learn
+かけます;かけます;Kakemasu;call
+て;手;te;hand
+はし;箸;Hashi;chopticks
+はさみ;鋏;Hasami;scissors
+かみ;紙;Kami;paper
+はな;花;Hana;flower
+にもつ;荷物;Nimotsu;luggage
+おかね;お金;Okane;money
+きっぷ;切符;Kippu;ticket
+ちち;父;Chichi;father
+はは;母;haha;mother
+おとうさん;お父さん;otosan;father
+おかあさん;お母さん;okasan;mother
+もう;もう;mo;already
+まだ;未だ;Mada;not yet
+これから;此れから;Kore kara;from now on
+すてきですね;素敵ですね;Sutekidesune;nice
+ごめんください;ご免ください;Gomenkudasai;excuse me
+いらっしゃい;いらっしゃい;Irasshai;welcome
+おあがりください;お上がりください;Oagarikudasai;Please come in
+しつれいします;失礼します;Shitsureishimasu;excuse me
+いかがですか;如何ですか;Ikagadesu ka;How is it?
+いただきます;頂きます;Itadakimasu;I will receive
+りょこう;旅行;Ryoko;travel
+おみやげ;お土産;Omiyage;gift

@@ -1,0 +1,38 @@
+わかります;分かります;Wakarimasu;I see
+あります;在ります;Arimasu;there is
+すき;好き;Suki;like
+きらい;嫌い;Kirai;dislike
+じょうず;上手;jozu;skillfull
+へた;下手;Heta;poor/bad
+りょうり;料理;Ryori;cuisine
+のみもの;飲み物;Nomimono;beverage
+やきゅう;野球;Yakyu;baseball
+おんがく;音楽;Ongaku;music
+うた;歌;uta;song
+かぶき;歌舞伎;Kabuki;JP classical drama
+え;絵;e;picture
+じ;字;ji;character
+かんじ;漢字;Kanji;kanji
+ひらがな;平仮名;hiragana;hiragana
+かたかな;片仮名;katakana;katakana
+こまかいおかね;細かいお金;Komakai okane;change
+じかん;時間;jikan;time
+ようじ;用事;yoji;tasks
+やくそく;約束;Yakusoku;promise
+ごしゅじん;ご主人;Goshujin;husband
+おっと;夫;Otto;(my) husband
+しゅじん;主人;Shujin;(my) husband
+おくさん;奥さん;Okusan;wife
+つま;妻;Tsuma;(my) wife
+かない;家内;Kanai;(my) wife
+こども;子ども;Kodomo;child
+よく;良く;Yoku;often
+だいたい;大体;Daitai;about
+たくさん;沢山;Takusan;many
+すこし;少し;Sukoshi;a little
+ぜんぜん;全然;Zenzen;(not) at all
+はやく;早く;Hayaku;quickly
+どうして;如何して;doshite;why
+ざんねんです[ね];残念です[ね];Zannendesu[ne];I'm sorry
+もしもし;もしもし;moshimoshi;alo
+だめですか;駄目ですか;Damedesu_ka;can't you?

@@ -1,0 +1,51 @@
+きれい;奇麗;Kirei;beautiful
+しずか;静か;Shizuka;quiet
+にぎやか;賑やか;Nigiyaka;lively
+ゆうめい;有名;yumei;famous
+しんせつ;親切;Shinsetsu;kindness
+げんき;元気;Genki;fine
+ひま;暇;Hima;free
+べんり;便利;Benri;Convenient
+すてき;素敵;Suteki;nice
+おおきい;大きい;oki;large
+ちいさい;小さい;chisai;small
+あたらしい;新しい;Atarashi;new
+ふるい;古い;Furui;old
+いい;いい;i;good
+わるい;悪い;Warui;bad
+あつい;暑い;Atsui;hot
+さむい;寒い;Samui;cold
+つめたい;冷たい;Tsumetai;cold
+むずかしい;難しい;Muzukashi;difficult
+やさしい;易しい;Yasashi;easy
+たかい;高い;Takai;high
+やすい;安い;Yasui;cheap
+ひくい;低い;Hikui;low
+おもしろい;面白い;Omoshiroi;interesting
+おいしい;美味しい;Oishi;delicious
+いそがしい;忙しい;Isogashi;busy
+しろい;白い;Shiroi;white
+くろい;黒い;Kuroi;black
+あかい;赤い;Akai;red
+あおい;青い;Aoi;blue
+さくら;桜;Sakura;Sakura
+やま;山;Yama;moutain
+まち;町;Machi;town
+たべもの;食べ物;Tabemono;food
+くるま;車;Kuruma;car
+ところ;所;Tokoro;place
+りょう;寮;ryo;dormitory
+べんきょう;勉強;benkyo;study
+せいかつ;生活;Seikatsu;life
+しごと;仕事;Shigoto;work
+どう;どう;do;how?
+どんな;どんな;donna;what
+どれ;どれ;Dore;which one
+とても;迚も;Totemo;very much
+あまり;余り;Amari;not really
+そして;然して;Soshite;and
+おげんきですか;お元気ですか;Ogenkidesuka;how are you?
+そうですね;そうですね;sodesune;Oh/well
+けっこうです;結構です;Kekkodesu;No thank you
+もう～です;もう～です;modesu;It is already
+そろそろしつれいします;そろそろ失礼します;Sorosoro shitsureishimasu;I have to leave now
