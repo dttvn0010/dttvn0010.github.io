@@ -1,20 +1,30 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>  
+    .text-item {
+        font-size:28px;        
+    }
+    
+    .text-item-bold {
+        font-size:36px;        
+        font-weight: bold;
+    }
+</style>
 <script src="https://kit.fontawesome.com/e2db74ebd5.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <audio id="audio"></audio>
 <div id='app' class="container">
     <table class='table'>
         <tr>
-            <th style="width:20%">Latin</th>
-            <th style="width:20%">Hiragana</th>
-            <th style="width:15%">Kanki</th>
-            <th>Meaning</th>
+            <th class="text-center text-item" style="width:20%">Latin</th>
+            <th class="text-center text-item" style="width:25%">Hiragana</th>
+            <th class="text-center text-item" style="width:20%">Kanki</th>
+            <th class="text-center text-item">Meaning</th>
         </tr>
         <tr v-for='word in words'>
-            <td><button v-on:click="play(word.latin)"><i class="fa fa-volume-up"></i></button> {{ word.latin }}</td>
-            <td>{{ word.hira }}</td>
-            <td>{{ word.kanji }}</td>
-            <td>{{ word.meaning }}</td>
+            <td class="text-item"><button v-on:click="play(word.latin)"><i class="fa fa-volume-up"></i></button> {{ word.latin }}</td>
+            <td class="text-center text-item-bold">{{ word.hira }}</td>
+            <td class="text-center text-item-bold">{{ word.kanji }}</td>
+            <td class="text-center text-item">{{ word.meaning }}</td>
         </tr>
     </table>
 </div>
