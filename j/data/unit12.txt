@@ -1,0 +1,41 @@
+かんたん;簡単;kantan;simple
+ちかい;近い;chikai;near
+とおい;遠い;tooi;far
+はやい;早い/速い;hayai;fast
+おそい;遅い;osoi;slow
+おおい;多い;ooi;many
+すくない;少ない;sukunai;little
+あたたかい;温かい/暖かい;atatakai;warm
+すずしい;涼しい;suzushii;cool
+あまい;甘い;amai;sweet
+からい;辛い;karai;spicy
+おもい;重い;omoi;heavy
+かるい;軽い;karui;light
+きせつ;季節;kisetsu;season
+はる;春;haru;spring
+なつ;夏;natsu;summer
+あき;秋;aki;autumn
+ふゆ;冬;fuyu;winter
+てんき;天気;denki;weather
+あめ;雨;ame;rain
+ゆき;雪;yuki;snow
+くもり;曇り;kumori;cloud
+くうこう;空港;kuukou;airport
+うみ;海;umi;sea
+せかい;世界;sekai;world
+おまつり;お祭り;omatsuri;festival
+しけん;試験;shiken;eperiment
+すきやき;すき焼き;sukiyaki;Sukiyaki 
+さしみ;刺身;sashimi;sashimi
+すし;寿司;sushi;sushi
+てんぷら;天ぷら;tenpura;tenpura
+いけばな;生け花;ikebana;flower arrangement art
+もみじ;紅葉;momiji;autumn colours
+どちらも;何方も;dochiramo;both
+ずっと;ずっと;zutto;much (better)
+はじめて;初めて;hajimete;for the first time
+ただいま;ただ今;tadaima;Here I am, I'm home!
+すごい;凄い;sugoi;amazing 
+でも;でも;demo;but
+つかれ;疲れ;tsukare;tired
+ぎおんまつり;祇園祭;gionmatsuri;Gion Festival

@@ -1,0 +1,30 @@
+つけます;点ける;tsukeru;turn on
+けします;消します;kesu;turn off
+あけます;開けます;akeru;open
+しめます;閉める;shimeru;close
+いそぎます;急ぎます;isogu;rush,hurry
+まちます;待ちます;matsu;wait
+とめます;止めます;tomeru;stop
+まがる;曲がる;magaru;bend,twist
+もちます;持ちます;motsu;hold
+とります;取ります;toru;pick up
+てつだいます;手伝います;tetsudaimasu;help
+よびます;呼びます;yobimasu;call
+はなします;話します;hanasimasu;talk
+じゅうしょ;住所;juusho;address 
+はじめます;始めます;hajimemasu;start
+ふります;降ります;furimasu;to fall
+ちず;地図;chizu;map
+しお;塩;shio;salt
+さとう;砂糖;satou;sugar
+よみかた;読み方;yomikata;pronunciation
+ゆっくり;ゆっくり;yukkuri;slowly
+すぐ;直ぐ;sugu;immediately
+また;又;mata;again
+あとで;後で;atode;afterwards
+もうすこし;もうすこし;mosukoshi;a little more
+いいですよ;いいですよ;idesuyo;OK
+さあ;さあ;saa;come on
+あれ;あれ;are;oh/well
+まっすぐ;真っ直ぐ;massugu;straight 
+おつり;お釣り;otsuri;change 

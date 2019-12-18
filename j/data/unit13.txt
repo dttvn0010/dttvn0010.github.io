@@ -1,0 +1,33 @@
+あそびます;遊びます;asobu;play
+およぎます;泳ぎます;oyogu;swim
+むかえます;迎えます;mukaeru;welcome/greet
+つかれます;疲れます;tsukareru;to get tired
+だします;出します;dasu;get out
+はいります;入ります;はいる;enter
+けっこんします;結婚します;kekkon;marriage
+かいものします;買い物します;kaimono;shopping
+しょくじします;食事します;shokuji;eat
+さんぽします;散歩します;sanpo;walk
+たいへん;大変;taihen;difficult, hard
+ほしい;欲しい;hoshii;desired
+さびしい;寂しい;sabishii;lonely
+ひろい;広い;hiroi;wide,spacious
+せまい;狭い;semai;narrow,small
+しやくしょ;市役所;shiyakusho;municipal office
+かわ;川;kawa;river
+けいざい;経済;keizai;economics
+びじゅつ;美術;bijutsu;fine arts
+つり;釣り;tsuri;fishing
+かいぎ;会議;kaigi;conference
+とうろく;登録;touroku;registration
+しゅうまつ;週末;shuumatsu;weekend
+おなか;お腹;onaka;abdomen, stomach
+すきま;隙間;sukima;gap
+いっぱい;一杯;ippai;full
+渇き;かわき;kawaki;thirst
+そうしましょう;そうしましょう;soshimashou;let's do so
+ごちゅうもん;ご注文;gochumon;order
+定食;ていしょく;teishoku;set meal
+ぎゅうどん;牛どん;gyudon;beef
+まち;待ち;machi;wait
+べつべつ;別々;betsubetsu;separately

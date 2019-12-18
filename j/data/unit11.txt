@@ -1,0 +1,44 @@
+こどもがいます;子供がいます;Kodomogaimasu;pregnant
+かかります;掛かる;kakarimas;take
+ひとつ;一つ;hitotsu;one
+ふたつ;二つ;futatsu;two
+みっつ;三つ;mitsu;three
+よっつ;四つ;yottsu;four
+いつつ;五つ;itsutsu;five
+むっつ;六つ;muttsu;six
+ななつ;七つ;nanatsu;seven
+やっつ;八つ;yattsu;eight
+ここのつ;九つ;kokonotsu;nine
+とお;十;too;ten
+いくつ;幾つ;ikutsu;how many
+ひとり;一人;hitori;one person
+ふたり;二人;futari;two people
+だい;台;dai;item(vehicles)
+枚;まい;mai;sheet
+回;かい;kai;times
+りんご;林檎;ringo;apple
+みかん;蜜柑;mikan;satsuma 
+きって;切手;kitte;stamp
+はがき;葉書;hagaki;postcard
+ふうとう;封筒;fuutou;envelope
+そくたつ;速達;sokutatsu;fast/express
+かきとめ;書留;kakitome;registered mail
+こうくうびん;航空便;koukuubin;airmail
+ふなびん;船便;funabin;sea mail
+りょうしん;両親;ryoushin;parents
+きょうだい;兄弟;kyoudai;siblings
+あに;兄;ani;(my) elder brother
+おにいさん;お兄さん;oniisan;elder brother
+あね;姉;ane;(my) elder sister
+おねえさん;お姉さん;oneesan;elder sister
+おとうと;弟;otouto;(my)younger brother
+おとうとさん;弟さん;otoutosan;younger brother
+いもうと;妹;imouto;(my) younger sister
+いもうとさん;妹さん;imoutosan;younger sister
+がいこく;外国;gaikoku;foreign country
+しゅうかん;週間;shuukan;week
+かげつ;ヶ月;kagetsu;month
+ぐらい;ぐらい;gurai;about
+ぜんぶ;全部;zenbu;all
+みんな;皆;minna;all
+だけ;丈;take;only

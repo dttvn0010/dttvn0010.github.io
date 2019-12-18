@@ -1,0 +1,23 @@
+たちます;立ちます;tatsumasu;stand
+すわります;座ります;suwarimas;sit
+つかいます;使います;tsukaimasu;use
+おきます;置きます;okimasu;put,place
+つくります;作ります, 造ります;tsukurimasu;make,produce
+うります;売ります;urimasu;sell
+しります;知ります;shirimasu;know
+すみます;住みます;tsumimasu;live at
+けんきゅうします;研究します;kenkyushimasu;research
+しって　います;知って　います;shitteimasu;know
+すんで　います;住んでいます;Sundeimasu;live
+しりょう;資料;shiryo;Document
+じこくひょう;時刻表;jikokuhyou;time table
+ふく;服;fuku;clothes
+せいひん;製品;seihin;product
+せんもん;専門;senmon;specialty
+はいしゃ;歯医者;haisha;dentist
+とこや;床屋;tokoya;barber
+どくしん;独身;dokushin;single
+とくに;特に;tokuni;special
+おもいだします;思い出します;omoidashimasu;remember
+ごかぞく;ご家族;gokazoku;family
+こうこう;高校;koko;high school
