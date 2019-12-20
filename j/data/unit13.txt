@@ -24,7 +24,7 @@
 おなか;お腹;onaka;abdomen, stomach
 すきま;隙間;sukima;gap
 いっぱい;一杯;ippai;full
-渇き;かわき;kawaki;thirst
+かわき;渇き;kawaki;thirst
 そうしましょう;そうしましょう;soshimashou;let's do so
 ごちゅうもん;ご注文;gochumon;order
 ていしょく;定食;teishoku;set meal
