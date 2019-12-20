@@ -27,7 +27,7 @@
 渇き;かわき;kawaki;thirst
 そうしましょう;そうしましょう;soshimashou;let's do so
 ごちゅうもん;ご注文;gochumon;order
-定食;ていしょく;teishoku;set meal
+ていしょく;定食;teishoku;set meal
 ぎゅうどん;牛どん;gyudon;beef
 まち;待ち;machi;wait
 べつべつ;別々;betsubetsu;separately
