@@ -14,8 +14,8 @@
 ひとり;一人;hitori;one person
 ふたり;二人;futari;two people
 だい;台;dai;item(vehicles)
-枚;まい;mai;sheet
-回;かい;kai;times
+まい;枚;mai;sheet
+かい;回;kai;times
 りんご;林檎;ringo;apple
 みかん;蜜柑;mikan;satsuma 
 きって;切手;kitte;stamp
