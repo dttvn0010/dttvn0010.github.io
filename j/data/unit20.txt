@@ -5,7 +5,7 @@
 でんわします;電話します;denwashimasu;make a phone call
 ぼく;僕;boku;I
 きみ;君;kimi;you
-サラリーマン;サラリーマン;Sararīman;salary man
+サラリーマン;サラリーマン;sararīman;salary man
 ことば;言葉;kotoba;word
 ぶっか;物価;bukka;prices
 きもの;着物;kimono;kimono
