@@ -1,0 +1,24 @@
+できます;出来ます;dekimasu;be able to
+あらいます;洗います;araimasu;wash
+ひきます;弾きます;hikimasu;play
+うたいます;歌います;utaimasu;sing
+あつめます;集めます;atsumemasu;collect
+すてます;捨てます;sutemasu;throw away
+かえます;換えます;kaemasu;switch, change
+うんてんします;運転します;untenshimasu;drive
+よやくします;予約します;yoyakushimasu;book, reserve
+けんがくします;見学します;kengakushimasu;visit
+こくさい;国際;kokusai;international
+げんきん;現金;genkin;cash
+しゅみ;趣味;shumi;interesting
+にっき;日記;nikki;diary
+いのり;祈り;inori;prayer
+かちょう;課長;kachou;falculty manager
+ぶちょう;部長;buchou;deparment manager
+しゃちょう;社長;shachou;director
+どうぶつ;動物;doubutsu;animal
+うま;馬;uma;horse
+なかなか;なかなか;nakanaka;not easy
+ぼくじょう;牧場;bokujou;(animal) farm
+ほんとうですか;ほんとうですか;hondoudesuka;really?
+ぜひ;ぜひ;zehi;certainly

@@ -1,0 +1,34 @@
+おぼえます;覚えます;oboemasu;remember
+わすれます;忘れます;wasuremasu;forget
+なくします;無くす;nakushimasu;lose
+だします;出します;dashimasu;submit
+はらいます;払います;haraimasu;pay
+かえします;返します;kaeshimasu;return
+でかけます;出かけます;dekakemasu;go out
+ぬぎます;脱ぎます;nugimasu;take off
+もっていきます;持って行きます;motteikimasu;bring
+もってきます;持って来ます;mottekimasu;bring
+しんぱいします;心配します;shinpaishimasu;worried
+ざんぎょうします;残業します;zangyoushimasu;work overtime
+しゅっちょうします;出張します;shutchoushimasu;go on business trip
+くすり;薬;Kusuri;medicine
+たいせつ;大切;taisetsu;important
+だいじょうぶ;大丈夫;daijoubu;no problem
+あぶない;危ない;abunai;dangerous
+もんだい;問題;mondai;problem
+こたえ;答え;kotae;answer
+きんえん;禁煙;kinen;no smoking
+ほけんしょう;保険証;hokenshou;insurance card
+けんこう;健康;kenkou;health
+かぜ;風邪;kaze;flu
+ねつ;熱;netsu;heat
+びょうき;病気;byouki;sick
+ふろ;風呂;furo;bath
+うわぎ;上着;uwagi;coat
+したぎ;下着;shitagi;underware
+までに;までに;madeni;before
+ですから;ですから;desukara;therefore
+どうしましたか;どうしましたか;doushimashitaka;what's wrong?
+いたいです;痛いです;itaidesu;ache
+のど;喉;nado;throat
+おだいじに;お大事に;odaijini;take care of yourself

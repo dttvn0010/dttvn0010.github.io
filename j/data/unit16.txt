@@ -1,0 +1,42 @@
+のります;乗ります;norimasu;get in (car/vehicle)
+おります;降ります;orimasu;get out (car/vehicle)
+のりかえます;乗り換えます;norikaemasu;transit (car/vehicle)
+あびます;浴びます;abimasu;bathe
+いれます;入れます;iremasu;put in, let enter
+だします;出します;dashimasu;take out
+はいります;入ります;hairimasu;enter
+でます;出ます;demasu;exit, go out
+やめます;やめます;yamemasu;quit,stop
+おします;押します;oshimasu;press,push
+わかい;若い;wakai;young
+ながい;長い;nagai;long
+みじかい;短い;mijikai;short
+あかるい;明るい;akarui;bright
+くらい;暗い;kurai;dark
+せが　たかい;背が　高い;sega takai;tall
+あたまが　いい;頭が　いい;atamagaii;smart
+からだ;体;karada;body
+あたま;頭;atama;head
+かみ;髪;kami;hair
+かお;顔;kao;face
+め;目;me;eye
+みみ;耳;mimi;ear
+くち;口;kuchi;mouth
+は;歯;ha;tooth
+おなか;お腹;onaka;stomach
+あし;足;ashi;leg
+みどり;緑;midori;green
+おてら;お寺;otera;pagoda
+じんじゃ;神社;jinja;temple
+りゅうがくせい;留学生;ryuugakusei;oversea student
+ばん;番;ban;number
+どうやって;どうやって;douyatte;how
+どの;どの;dono;which one
+まだまだです;まだまだです;madamadesu;I'm still not good
+おひきだします;お引き出します;ohikidashimasu;withdraw
+まず;まず;mazu;first of all
+あんしょうばんごう;暗証番号;anshoubangou;password
+つぎに;次に;tsugini;next
+きんがく;金額;kingaku;amount of money
+かくにん;確認;Kakunin;confirmation
+アジア;アジア;ajia;Asia
