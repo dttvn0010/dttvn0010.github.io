@@ -1,0 +1,24 @@
+のぼります;登ります;noborimasu;climb (hill)
+とまります;泊まります;tomarimasu;stay (guess house)
+そうじします;掃除します;soujishimasu;clean
+せんたくします;洗濯します;sentakushimasu;wash
+れんしゅうします;練習します;renshoushimasu;practice
+なります;成ります;narimasu;become
+ねむい;眠い;nemui;sleepy
+つよい;強い;tsuyoi;strong
+よわい;弱い;yowai;weak
+ちょうし;調子;choushi;condition
+すもう;相撲;sumou;sumo
+ひ;日;hi;day
+いちど;一度;ichido;once
+いちども;一度も;ichido mo;nonce
+だんだん;段々;dandan;gradually
+もうすぐ;もう直ぐ;mousugu;soon
+おかげさまで;お蔭様で;okagesamade;thank you
+かんぱい;乾杯;kanpai;cheer
+じつは ;実は;jitsuwa;actually
+なんかいも;何回も;nankaimo;many times
+しかし;然し;shikashi;however
+むり;無理;muri;impossible
+からだにいい;体にいい;karadanii;healthy
+ケーキ;ケーキ;keki;cake

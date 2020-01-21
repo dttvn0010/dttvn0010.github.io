@@ -1,0 +1,22 @@
+いります;要ります;irimasu;need
+しらべます;調べます;shirabemasu;examine
+なおします;直します;naoshimasu;fix
+しゅうりします;修理します;shourishimasu;repair
+でんわします;電話します;denwashimasu;make a phone call
+ぼく;僕;boku;I
+きみ;君;kimi;you
+サラリーマン;サラリーマン;Sararīman;salary man
+ことば;言葉;kotoba;word
+ぶっか;物価;bukka;prices
+きもの;着物;kimono;kimono
+はじめ;始め;hajime;begin
+おわり;終わり;owari;finish
+こっち;此方;kocchi;here
+そっち;其方;socchi;there
+あっち;彼方;acchi;over there
+どっち;何方;docchi;where
+このあいだ;この間;konoaida;recently
+けど;けど;kedo;however
+どうするの;どう為るの;dousuru no;what will you do?
+どうしようかな;どう為ようかな;doushiyoukana;what should I do?
+よかったら;よかったら;yokattara;if it's ok
