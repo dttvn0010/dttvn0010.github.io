@@ -1,0 +1,11 @@
+きます;着ます;kimasu;wear
+はきます;履きます;hakimasu;put on (shoes)
+かぶります;被ります;kaburimasu;put on (hat)
+かけます;掛けます;kakemasu;wear (glasses)
+うまれます;生まれます;umaremasu;born
+ぼうし;帽子;boushi;hat
+めがね;眼鏡;megane;glasses
+やちん;家賃;yachin;rent
+わしつ;和室;washitsu;Japanese-style room
+おしいれ;押入れ;oshiire;place to put blanket, pillow
+ふとん;布団;futon;blanket,mattress

@@ -1,0 +1,25 @@
+ききます;聞きます;kikimasu;listen,ask
+まわします;回します;mawashimasu;rotate (button)
+ひきます;引きます;hikimasu;pull
+かえます;変えます;kaemasu;change
+さわります;触ります;sawarimasu;touch
+うごきます;動きます;ugokimasu;move
+あるきます;歩きます;arukimasu;walk
+わたります;渡ります;watarimasu;cross (street)
+きをつけます;気をつけます;Kiyotsukemasu;be careful
+ひっこしします;引っ越しします;hikkoshishimasu;move house
+でんきや;電気屋;denkiya;electric shop
+おと;音;oto;sound
+きかい;機械;kikai;machine
+つまみ;摘み;tsumami;button
+こしょう;故障;koshyou;brokendown
+みち;道;michi;road,way
+こうさてん;交差点;kousaten;road intersection
+しんごう;信号;shingou;signal
+かど;角;kado;angle,corner
+はし;橋;hashi;bridge
+ちゅうしゃじょう;駐車場;Chuushyajyou;parking lot
+―め;―目;me;order
+おしょうがつ;お正月;oshyougatsu;new year
+たてもの;建物;tatemono;building
+がいこくじんとうろくしょう;外国人登録証;Gaikokujintourokushyou;foreigner registration card

@@ -1,0 +1,26 @@
+おもいます;思います;omoimasu;think
+いいます;言います;iimasu;say
+たります;足ります;tarimasu;sufficient
+かちます;勝ちます;kachimasu;win
+まけます;負けます;makemasu;lose
+やくにたちます;役に立ちます;yakynitachimasu;help,useful
+むだ;無駄;muda;useless
+ふべん;不便;fuben;inconvenient
+おなじ;同じ;onaji;same
+すごい;凄い;sugoi;amazing 
+しゅしょう;首相;shushyou;prime minister
+だいとうりょう;大統領;daitouryou;president
+せいじ;政治;seiji;politics
+しあい;試合;shiai;match
+いけん;意見;iken;idea
+おはなし;お話;ohanashi;story
+こうつう;交通;koutsuu;traffic
+さいきん;最近;saikin;recently
+たぶん;多分;tabun;probably
+きっと;屹度;kitto;surely
+ほんとう;本当;hontou;actuality,truth
+そんなに;そんなに;sonnani;(not) so much
+について;に就いて;nitsuite;regarding
+しかた;仕方;shikata;way,method
+しばらく;暫く;shibaraku;for a moment
+もちろん;勿論;mochiron;of course, certainly
