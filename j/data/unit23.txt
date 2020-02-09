@@ -18,7 +18,7 @@
 しんごう;信号;shingou;signal
 かど;角;kado;angle,corner
 はし;橋;hashi;bridge
-ちゅうしゃじょう;駐車場;Chuushyajou;parking lot
+ちゅうしゃじょう;駐車場;Chuushajou;parking lot
 ―め;―目;me;order
 おしょうがつ;お正月;oshougatsu;new year
 たてもの;建物;tatemono;building
