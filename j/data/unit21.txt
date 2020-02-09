@@ -9,7 +9,7 @@
 おなじ;同じ;onaji;same
 すごい;凄い;sugoi;amazing 
 しゅしょう;首相;shushou;prime minister
-だいとうりょう;大統領;daitourou;president
+だいとうりょう;大統領;daitouryou;president
 せいじ;政治;seiji;politics
 しあい;試合;shiai;match
 いけん;意見;iken;idea
