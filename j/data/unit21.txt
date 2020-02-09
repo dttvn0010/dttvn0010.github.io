@@ -3,7 +3,7 @@
 たります;足ります;tarimasu;sufficient
 かちます;勝ちます;kachimasu;win
 まけます;負けます;makemasu;lose
-やくにたちます;役に立ちます;yakynitachimasu;help,useful
+やくにたちます;役に立ちます;yakunitachimasu;help,useful
 むだ;無駄;muda;useless
 ふべん;不便;fuben;inconvenient
 おなじ;同じ;onaji;same
