@@ -1,6 +1,6 @@
 つれていきます;連れて行きます;tsurete ikimasu;take someone to some place (go)
 つれてきます;連れて来ます;Tsuretekimasu;take someone to some place (come)
-しょうかいします;紹介します;Shyoukai shimasu;introduce
+しょうかいします;紹介します;Shoukai shimasu;introduce
 あんないします;案内します;annai shimasu;guide
 せつめいします;説明します;setsumei shimasu;explain
 いれます;淹れる;iremasu;brew

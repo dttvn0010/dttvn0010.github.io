@@ -1,6 +1,6 @@
 かんがえます;考えます;kangaemasu;think
 つきます;着きます;tsukimasu;arrive
-りゅうがくします;留学します;ryuugakushimasu;study abroad
+りゅうがくします;留学します;ruugakushimasu;study abroad
 とります;取ります;torimasu;take
 いなか;田舎;inaka;countryside
 たいしかん;大使館;taishikan;embassy
