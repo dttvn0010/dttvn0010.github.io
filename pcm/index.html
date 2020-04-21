@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>PCM player</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="pcm.css">
+    <script type="application/javascript" src="pcm.js"></script>
+  </head>
+  <body>
+    <div class="container">
+		<div class="row">
+			<div class="col-2">
+			</div>
+			<div class="col-8">
+				<div class="bground">
+					<svg id ="btnPause" width="22" height="22" style="position: absolute; left: 164px;top:240px;">
+					  <defs>
+						<radialGradient id="ledGradient">
+						  <stop offset="10%" stop-color="#00ff00" />
+						  <stop offset="95%" stop-color="#00cc00" />
+						</radialGradient>
+					  </defs>
+					  <circle cx="11" cy="11" r="11" fill="url('#ledGradient')" />
+					</svg>
+					
+					<svg id ="btnPause" width="68" height="68" style="position: absolute; left: 90px;top:332px;">
+					  <circle cx="34" cy="34" r="34" fill="#007bff" fill-opacity="0.4" />
+					</svg>
+					
+					<svg id ="btnPlay" width="68" height="68" style="position: absolute; left: 187px;top:332px;">
+					  <circle cx="34" cy="34" r="34" fill="#007bff" fill-opacity="0.4" />
+					</svg>
+					
+					<svg id ="btnReload" width="68" height="68" style="position: absolute; left: 284px;top:332px;">
+					  <circle cx="34" cy="34" r="34" fill="#007bff" fill-opacity="0.4" />
+					</svg>
+					
+					<svg id ="btnMute" width="68" height="68" style="position: absolute; left: 284px;top:216px;">
+					  <circle cx="34" cy="34" r="34" fill="#007bff" fill-opacity="0.4" />
+					</svg>
+				</div>
+			</div>
+			<div class="col-2">
+			</div>			
+		</div>
+	</div>
+  </body>
+</html>
