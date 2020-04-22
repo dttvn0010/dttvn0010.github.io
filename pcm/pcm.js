@@ -7,28 +7,47 @@
   let pcm    = this;
   let toggle = null;
   let source = null;
+  let stopped = false;
   let on     = {
     DOMContentLoaded: function(e) {
       //this.querySelector('button').addEventListener('click', on.click);
       this.removeEventListener(e.type, on.DOMContentLoaded);
 	  
-	  let btnPlay = this.querySelector('#btnPlay');
+	  let btnPlay = document.querySelector('#btnPlay');
 	  btnPlay.addEventListener('click', function() {
-		  let circle = this.querySelector('#btnPlay circle');
+		  let circle = document.querySelector('#btnPlay circle');
 		  circle.setAttribute("fill-opacity", 0.6);
 		  setTimeout(function(){circle.setAttribute("fill-opacity", 0.4)}, 200);
-		  
+		  stopped = false;
 		  on.xhr;
 	  });
 	  
-	  let btnPause = this.querySelector('#btnPause');
+	  let btnPause = document.querySelector('#btnPause');
 	  btnPause.addEventListener('click', function() {
-		  let circle = this.querySelector('#btnPause circle');
+		  let circle = document.querySelector('#btnPause circle');
 		  circle.setAttribute("fill-opacity", 0.6);
 		  setTimeout(function(){circle.setAttribute("fill-opacity", 0.4)}, 200);
-		  
+		  stopped = true;
 		  source.stop();
 	  });	  
+	  
+	  let btnConnect = document.querySelector('#btnConnect');
+	  btnConnect.addEventListener('click', function(){
+		  let circle = document.querySelector('#wifiLed circle');
+		  circle.setAttribute("fill", "url('#greenGradient')");
+		  let blinkCount = 0;
+		  let blinker = setInterval(function() {
+			  if(blinkCount %2 == 0) {
+				  circle.setAttribute("fill", "url('#darkGreenGradient')");
+			  }else{
+				  circle.setAttribute("fill", "url('#greenGradient')");
+			  }
+			  if(blinkCount++ >= 7) {
+				  clearInterval(blinker);
+				  on.xhr;
+			  }
+		  }, 150);
+	  });
 	 
     },
     get xhr() {
@@ -91,6 +110,7 @@
       source.buffer = myAudioBuffer;
       source.connect(audioCtx.destination);
       source.start();
+      source.onended = function() { if(!stopped) setTimeout(function(){on.xhr}, 1000); }
     },
     click: function(e) {
       let pause = 'pause';

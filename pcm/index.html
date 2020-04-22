@@ -9,19 +9,54 @@
   </head>
   <body>
     <div class="container">
+		<div style="display:flex;margin-top:50px">
+			<div style="width:15%">
+				<label>Audio Device:</label>
+			</div>
+			<div style="width:50%">
+				<select class="form-control">
+					<option>----Select Audio Device----</option>
+					<option>Device 1</option>
+					<option>Device 2</option>
+				</select>
+			</div>
+		</div>
+		<div style="display:flex" class="mt-2">
+			<div style="width:15%">
+				<label>Device key:</label>
+			</div>
+			<div style="width:38%">
+				<input class="form-control">
+			</div>
+			<div style="width:12%">
+				<button id="btnConnect" class="float-right btn btn-small btn-primary">Connect</button>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-2">
 			</div>
 			<div class="col-8">
 				<div class="bground">
-					<svg width="22" height="22" style="position: absolute; left: 164px;top:240px;">
+					<svg id="wifiLed" width="22" height="22" style="position: absolute; left: 164px;top:240px;">
 					  <defs>
-						<radialGradient id="ledGradient">
+						<radialGradient id="redGradient">
+						  <stop offset="10%" stop-color="#ff0000" />
+						  <stop offset="95%" stop-color="#dd0000" />
+						</radialGradient>
+					  </defs>
+					  <defs>
+						<radialGradient id="greenGradient">
 						  <stop offset="10%" stop-color="#00ff00" />
 						  <stop offset="95%" stop-color="#00cc00" />
 						</radialGradient>
 					  </defs>
-					  <circle cx="11" cy="11" r="11" fill="url('#ledGradient')" />
+					  <defs>
+						<radialGradient id="darkGreenGradient">
+						  <stop offset="10%" stop-color="#00b000" />
+						  <stop offset="95%" stop-color="#008000" />
+						</radialGradient>
+					  </defs>
+					  <circle cx="11" cy="11" r="11" fill="url('#redGradient')" />
 					</svg>
 					
 					<svg id ="btnPause" width="68" height="68" style="position: absolute; left: 90px;top:332px;">
