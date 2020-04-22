@@ -6,9 +6,10 @@
 
   let pcm    = this;
   let toggle = null;
+  let audioCtx = null;
   let source = null;
   let connected = false;
-  let stopped = true;
+  let muted = false;
   let on     = {
     DOMContentLoaded: function(e) {
       //this.querySelector('button').addEventListener('click', on.click);
@@ -16,21 +17,29 @@
 	  
 	  let btnPlay = document.querySelector('#btnPlay');
 	  btnPlay.addEventListener('click', function() {
-		  if(!connected || !stopped) return;
+		  if(!connected) { alert("Please connect!"); return;}
 		  let circle = document.querySelector('#btnPlay circle');
 		  circle.setAttribute("fill-opacity", 0.6);
 		  setTimeout(function(){circle.setAttribute("fill-opacity", 0.4)}, 200);
-		  stopped = false;
-		  on.xhr;
+		  
+		  muted = false;
+		  let circle2 = document.querySelector('#btnMute circle');
+		  circle2.setAttribute("fill", "#007bff");
+			
+		  circle2 = document.querySelector('#mutedLed circle');
+		  circle2.setAttribute("fill", "url('#darkOrangeGradient')");
 	  });
-	  
-	  let btnPause = document.querySelector('#btnPause');
-	  btnPause.addEventListener('click', function() {
-		  let circle = document.querySelector('#btnPause circle');
-		  circle.setAttribute("fill-opacity", 0.6);
-		  setTimeout(function(){circle.setAttribute("fill-opacity", 0.4)}, 200);
-		  stopped = true;
-		  source.stop();
+	  	  
+	  let btnMute = document.querySelector('#btnMute');
+	  btnMute.addEventListener('click', function() {
+		  if(!connected) return;
+		  muted = !muted;
+		  let circle = document.querySelector('#btnMute circle');
+		  circle.setAttribute("fill", muted?"#ff7b00" : "#007bff");
+			
+		  circle = document.querySelector('#mutedLed circle');
+		  circle.setAttribute("fill", muted? "url('#orangeGradient')" : "url('#darkOrangeGradient')");
+		  if(muted) source.stop();
 	  });	  
 	  
 	  let btnConnect = document.querySelector('#btnConnect');
@@ -47,7 +56,6 @@
 			  if(blinkCount++ >= 7) {
 				  clearInterval(blinker);				  
 				  connected = true;
-				  stopped = false;
 				  on.xhr;
 			  }
 		  }, 150);
@@ -95,6 +103,25 @@
       }
     },
     response: function(message) {
+	  if(muted) {
+		  let blinkCount = 0;
+		  let blinker = setInterval(function() {
+			  let circle = document.querySelector('#mutedLed circle');
+			  if(blinkCount %2 == 0) {
+				  circle.setAttribute("fill", "url('#darkOrangeGradient')");
+			  }else{
+				  circle.setAttribute("fill", "url('#orangeGradient')");
+			  }
+			  if(blinkCount++ > 10 || !muted) {
+				  clearInterval(blinker);				  
+				  circle.setAttribute("fill", muted? "url('#orangeGradient')" : "url('#darkOrangeGradient')");
+			  }
+		  }, 150);
+		  
+		  setTimeout(function(){on.xhr}, 5000);
+		  return;
+	  }
+	  
       let buffer = atob(message.pcm);
       let bits       = 8;//message.pcm_bits;
       let channel    = 0;//message.pcm_channel;
@@ -102,7 +129,7 @@
       let sampleRate = 16000;//message.pcm_samplerate;
     
       let frameCount = buffer.length / 2;
-      let audioCtx = (new pcm());
+      audioCtx = (new pcm());
       let myAudioBuffer = audioCtx.createBuffer(channels, frameCount, sampleRate);
       let nowBuffering = myAudioBuffer.getChannelData(channel, bits, sampleRate);
       let i = 0;
@@ -114,7 +141,7 @@
       source.buffer = myAudioBuffer;
       source.connect(audioCtx.destination);
       source.start();
-      source.onended = function() { if(!stopped) setTimeout(function(){on.xhr}, 1000); }
+      source.onended = function() { setTimeout(function(){on.xhr}, 1000); }
     },
     click: function(e) {
       let pause = 'pause';
