@@ -7,7 +7,8 @@
   let pcm    = this;
   let toggle = null;
   let source = null;
-  let stopped = false;
+  let connected = false;
+  let stopped = true;
   let on     = {
     DOMContentLoaded: function(e) {
       //this.querySelector('button').addEventListener('click', on.click);
@@ -15,6 +16,7 @@
 	  
 	  let btnPlay = document.querySelector('#btnPlay');
 	  btnPlay.addEventListener('click', function() {
+		  if(!connected || !stopped) return;
 		  let circle = document.querySelector('#btnPlay circle');
 		  circle.setAttribute("fill-opacity", 0.6);
 		  setTimeout(function(){circle.setAttribute("fill-opacity", 0.4)}, 200);
@@ -43,7 +45,9 @@
 				  circle.setAttribute("fill", "url('#greenGradient')");
 			  }
 			  if(blinkCount++ >= 7) {
-				  clearInterval(blinker);
+				  clearInterval(blinker);				  
+				  connected = true;
+				  stopped = false;
 				  on.xhr;
 			  }
 		  }, 150);
