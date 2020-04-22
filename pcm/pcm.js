@@ -8,6 +8,7 @@
   let toggle = null;
   let audioCtx = null;
   let source = null;
+  let gainNode = null;
   let connected = false;
   let muted = false;
   let on     = {
@@ -23,6 +24,8 @@
 		  setTimeout(function(){circle.setAttribute("fill-opacity", 0.4)}, 200);
 		  
 		  muted = false;
+		  gainNode.gain.setValueAtTime(1, audioCtx.currentTime);
+		  
 		  let circle2 = document.querySelector('#btnMute circle');
 		  circle2.setAttribute("fill", "#007bff");
 			
@@ -39,7 +42,7 @@
 			
 		  circle = document.querySelector('#mutedLed circle');
 		  circle.setAttribute("fill", muted? "url('#orangeGradient')" : "url('#darkOrangeGradient')");
-		  if(muted) source.stop();
+		  gainNode.gain.setValueAtTime(muted?-1:1, audioCtx.currentTime);
 	  });	  
 	  
 	  let btnConnect = document.querySelector('#btnConnect');
@@ -119,9 +122,6 @@
 				  circle.setAttribute("fill", muted? "url('#orangeGradient')" : "url('#darkOrangeGradient')");
 			  }
 		  }, 150);
-		  
-		  setTimeout(function(){on.xhr}, 5000);
-		  return;
 	  }
 	  
       let buffer = atob(message.pcm);
@@ -140,6 +140,12 @@
         nowBuffering[i] = ((word + 32768) % 65536 - 32768) / 32768.0;
       }
       source = audioCtx.createBufferSource();
+      gainNode = audioCtx.createGain();
+      gainNode.gain.setValueAtTime(muted?-1:1, 0);
+		  
+      source.connect(gainNode);
+      gainNode.connect(audioCtx.destination);
+      
       source.buffer = myAudioBuffer;
       source.connect(audioCtx.destination);
       source.start();
