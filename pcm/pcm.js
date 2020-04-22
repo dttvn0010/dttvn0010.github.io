@@ -117,7 +117,7 @@
 			  }else{
 				  circle.setAttribute("fill", "url('#orangeGradient')");
 			  }
-			  if(blinkCount++ > 10 || !muted) {
+			  if(blinkCount++ >= 10 || !muted) {
 				  clearInterval(blinker);				  
 				  circle.setAttribute("fill", muted? "url('#orangeGradient')" : "url('#darkOrangeGradient')");
 			  }
