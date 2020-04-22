@@ -44,6 +44,8 @@
 	  
 	  let btnConnect = document.querySelector('#btnConnect');
 	  btnConnect.addEventListener('click', function(){
+		  if(connected) return;
+		  
 		  let circle = document.querySelector('#wifiLed circle');
 		  circle.setAttribute("fill", "url('#greenGradient')");
 		  let blinkCount = 0;
