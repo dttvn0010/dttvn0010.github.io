@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Customers', 'Purchase amount'],          
+          ['0-500k', 671],
+          ['500k-1M', 4885],
+          ['1M-1.5M', 1993],
+          ['1.5M-2M', 952],
+          ['2M-2.5M', 517],
+          ['2.5M-3M', 311],
+          ['3M-3.5M', 182],
+          ['3.5M-4M', 139],
+          ['4M-4.5M', 106],
+          ['4.5M-5M', 60],
+          ['>5M', 184],          
+        ]);
+
+        var options = {
+          title: 'Customer Purchase',
+          legend: { position: 'none' },
+          
+          hAxis: {
+            ticks: [0,10,20,30,40,50]
+          },
+          histogram: {            
+            maxNumBuckets: 200,            
+          }
+        };
+
+        var chart = new google.visualization.Histogram(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>

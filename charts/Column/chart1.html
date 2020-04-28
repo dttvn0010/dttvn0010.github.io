@@ -1,0 +1,31 @@
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+          ['Purchase amount', 'Number of customer'],
+          ['0 to 1M', 16989],
+          ['1M to 2M', 2945],
+          ['2M to 3M', 828],
+          ['3M to 4M', 321],
+          ['4M to 5M', 166],          
+          ['above 5M', 184]
+      ]);
+
+      var view = new google.visualization.DataView(data);
+
+      var options = {
+        title: "fff",
+        bar: {groupWidth: "98%"},
+        legend: { position: "none" },        
+        vAxis: {
+            scaleType: 'log',            
+            ticks: [10,100,1000,10000]
+        },  
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+      chart.draw(view, options);
+  }
+  </script>
+<div id="columnchart_values" style="width: 900px; height: 600px;"></div>

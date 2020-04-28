@@ -1,0 +1,31 @@
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+          ['Number of days', 'Number of customer'],
+          ['0 to 5', 20563],
+          ['5 to 10', 255],
+          ['10 to 15', 20],
+          ['15 to 20', 4],
+          ['20 to 25', 3],          
+          ['above 25', 0]
+      ]);
+
+      var view = new google.visualization.DataView(data);
+
+      var options = {
+        title: "Density of Precious Metals, in g/cm^3",
+        bar: {groupWidth: "98%"},
+        legend: { position: "none" },
+        vAxis: {
+            scaleType: 'log',            
+            ticks: [10,100,1000,10000]
+        },  
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+      chart.draw(view, options);
+  }
+  </script>
+<div id="columnchart_values" style="width: 900px; height: 600px;"></div>

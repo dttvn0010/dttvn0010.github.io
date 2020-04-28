@@ -1,0 +1,13 @@
+<iframe frameBorder="0" id="chart1" width="800px" height="500px" style="display: none"></iframe>
+
+<br/>
+<input type="range" min="1" max="100" onchange="sliderChange()" value="50" class="slider" id="myRange">
+
+<script>
+function sliderChange() {
+    var offset = document.getElementById('myRange').value - 50;
+    var chartFrame = document.getElementById('chart1');
+    chartFrame.style.display = '';
+	chartFrame.src = "chart1.html?offset=" + offset;
+}
+</script>
