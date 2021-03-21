@@ -1,0 +1,49 @@
+うれます;売れます;uremasu;to sell (well)
+おどります;踊ります;odorimasu;dance
+かみます;噛みます;kamimasu;bite/chew
+えらびます;選びます;erabimasu;choose/select
+かよいます;通います;kayoimasu;go to (school)
+メモします;メモします;memoshimasu;note
+まじめ;真面目;majime;serious
+ねっしん;熱心;nesshin;zealous/enthusiastic
+えらい;偉い;erai;great/excellent
+ちょうどいい;ちょうど良い;choudoii;just right/fit
+けしき;景色;keshiki;scenery/landscape
+びよういん;美容院;biyouin;beauty salon
+だいどころ;台所;daidokoro;kitchen
+けいけん;経験;keiken;experience
+ちから;力;chikara;force/strength
+にんき;人気;ninki;popularity/public favor
+いろ;色;iro;color
+あじ;味;aji;taste
+ガム;ガム;gamu;chewing gum
+しなもの;品物;shinamono;goods/thing
+ねだん;値段;nedan;price/cost
+きゅうりょう;給料;kyuuryou;salary
+ボーナス;ボーナス;bonasu;bonus
+ゲーム;ゲーム;gemu;game
+ばんぐみ;番組;bangumi;(TV)program 
+ドラマ;ドラマ;dorama;teledrama
+かしゅ;歌手;kashu;singer
+しょうせつ;小説;shousetsu;novel/fiction
+しょうせつか;小説家;shousetsuka;novelist
+き;機;ki;machine
+むすこ;息子;musuko;(my) son
+むすこさん;息子さん;musukosan;son
+むすめ;娘;musume;(my) daughter
+むすめさん;娘さん;musumesan;daughter
+しばらく;暫く;shibaraku;for a moment
+たいてい;大抵;taitei;mostly
+それに;其れに;soreni;besides
+それで;其れで;sorede;therefore
+じつは;実は;jitsuha;in fact
+かいわ;会話;kaiwa;conversation
+うーん;うーん;un;hmm
+お知らせ;お知らせ;oshirase;notification
+さんかします;参加します;sankashimasu;join
+ひにち;日にち;hinichi;date
+ど;土;do;saturday
+たいいくかん;体育館;taiikukan;gymnasium
+むりょう;無料;muryou;free (of charge)
+さそいます;誘います;sasoimasu;invite
+イベント;イベント;ibento;event
