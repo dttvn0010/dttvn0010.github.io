@@ -1,0 +1,42 @@
+はります;張ります;harimasu;to stick
+かけます;掛けます;kakemasu;to hang
+かざります;飾ざります;kazarimasu;to decorate
+ならべます;並べます;narabemasu;to line up
+うえます;植えます;uemasu;to plant/grow
+もどします;戻どします;modoshimasu;restore/revert
+まとめます;纏めます;matomemasu;to collect
+しまいます;仕舞います;shimaimasu;keep/store
+きめます;決めます;kimemasu;decide
+よしゅうします;予習します;Yoshu shimasu;prepare
+じゅぎょう;授業;jugyou;instruction/lesson
+こうぎ;講義;kougi;lecture
+ミーティング;ミーティング;Mitingu;meeting
+よてい;予定;yotei;plan
+おしらせ;お知らせ;oshirase;notice
+ガイドブック;ガイドブック;Gaidobukku;Guidebook
+カレンダー;カレンダー;Karenda;calendar
+ポスター;ポスター;Posuta;Poster
+よていひょう;予定表;yoteihyou;schedule
+ごみばこ;ゴミ箱;gomibako;trash can 
+にんぎょう;人形;ningyou;doll
+かびん;花瓶;kabin;vase
+かがみ;鏡;kagami;mirror
+ひきだし;引き出し;hikidashi;drawer
+げんかん;玄関;genkan;entrance
+ろうか;廊下;rouka;corridor
+いけ;池;ike;pond
+もと;元;moto;original
+まわり;周り;mawari;circumference
+まんなか;真ん中;mannaka;centre
+すみ;隅;sumi;corner
+まだ;未だ;mada;yet
+リュック;リュック;Ryukku;Ruck sack
+ひじょうじ;非常時;hijouji;emergency
+せいかつします;生活します;seikatsu shimasu;live
+かいちゅうでんとう;懐中電灯;kaichuudentou;flashlight
+まる;丸い;marui;round/circle
+ゆめ;夢;yume;dream
+うれしい;嬉しい;ureshii;happy/glad
+いや;嫌;iya;unpleasant
+すると;すると;suruto;there upon
+さめます;覚めます;samemasu;wake up

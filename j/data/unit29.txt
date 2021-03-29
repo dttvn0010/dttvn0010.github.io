@@ -1,0 +1,38 @@
+つきます;点く;tsukimasu;to be lighted
+こわれます;壊れます;kowaremasu;to be broken
+われます;割れます;waremasu;to be smashed
+おれます;折れます;oremasu;to be fractured
+やぶれます;破れます;yaburemasu;to get torn
+よごれます;汚れます;yogoremasu;to get dirty
+つきます;付きます;tsukimasu;to be attached
+はずれます;外れます;hazuremasu;to be disconnected
+とまります;止まます;tomarimasu;to stop moving
+まちがえます;間違えます;machigaemasu;to make a mistake
+おとします;落とします;otoshimasu;to drop/lose
+かかります;掛かります;kakarimasu;to be fastened
+ふきます;拭きます;fukimasu;to wipe
+とりかえます;取り換えます;torikaemasu;to exchange/swap
+かたづけます;片付けます;katadukemasu;to tidy up
+おさら;お皿;osara;dish
+おちゃわん;お茶わん;ochawan;bowl/cup
+コップ;コップ;koppu;cup
+ガラス;ガラス;Garasu;glass
+ふくろ;袋;fukuro;bag/sack
+しょるい;書類;shorui;document
+えだ;枝;eda;twig
+えきいん;駅員;ekiin;station staff
+こうばん;交番;kouban;police station
+スピーチ;スピーチ;Supichi;speecj
+へんじ;返事;henji;reply/answer
+おさきにどうぞ;おさきにどうぞ;Osakini dozo;Please go ahead
+ポケット;ポケット;Poketto;pocket
+へん;辺;hen;side
+あみだな;網棚;amidana;luggage rack
+たしか;確か;tashika;sure/certain
+じしん;地震;jishin;earthquake
+かべ;壁;kabe;wall
+はり;針;hari;needle/pin
+さします;指します;sashimasu;to point
+たおれます;倒れます;taoremasu;to fall
+もえます;燃えます;moemasu;to burn
+レポーター;レポーター;Repota;reporter
