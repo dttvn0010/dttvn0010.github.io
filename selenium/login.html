@@ -1,0 +1,61 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+
+<style>
+  .bg-login {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-position: right 0px top 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .login-form {
+    border: 1px solid #DDD;
+    max-width: 400px;
+    padding: 20px;
+    margin: 100 auto 0 auto;
+  }
+
+</style>
+
+<body class="bg-login">
+  <div class="login-form">
+    <h3>Đăng nhập</h3>
+    <br>
+    <form id="fmt" method="POST" onsubmit="return login()" action="hello.html">
+      <div class="form-group">
+        <label>Tên tài khoản</label>
+        <input name="username" type="text" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label>Mật khẩu</label>
+        <input name="password" type="password" class="form-control" />
+      </div>
+      <div class="form-group">
+        <span id="error" style="color:red"></span>
+      </div>
+      <br>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
+      </div>
+    </form>
+  </div>
+</body>
+<script>
+    function login() {
+        var data = new FormData(document.getElementById("fmt"));
+        var username = data.get("username");
+        var password = data.get("password");
+        if(username != "admin" || password != "password") {
+            document.getElementById("error").innerHTML = "Tên đăng nhập hoặc mật khẩu không đúng";
+            return false;
+        }
+        document.getElementById("error").innerHTML = "";
+        location.href = "hello.html";
+        return false;
+    }
+</script>

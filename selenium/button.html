@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+
+<div class="container mt-3">
+    <div class="form-group">
+        <button class="btn btn-primary" onclick="btnClick()">Click here</button>
+        <span id="count" class="ml-3" style="font-size: 16;"></span>
+    </div>
+</div>
+
+<script>
+    var count = 0;
+    function btnClick() {
+        count += 1;
+        document.getElementById("count").innerHTML = `You have clicked ${count} times`;
+    }
+</script>
