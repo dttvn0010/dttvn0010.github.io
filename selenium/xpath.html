@@ -4,7 +4,16 @@
 
 <div class="container mt-3">
     <div class="form-group">
-		<h3>Danh sách khách hàng</h3>
+		<div class="row mb-3">
+			<div class="col-9">
+				<h3>Danh sách khách hàng</h3>
+			</div>
+			<div class="col-3">
+				<a href="javascript:addNew()" class="float-right">
+					<i class="fa fa-2x fa-plus-circle"></i>
+				</a>
+			</div>
+		</div>
 		<table class="table">
 			<thead>
 				<tr>
@@ -58,6 +67,9 @@
     function btnClick() {
         alert('OK');
     }
+	function addNew() {
+		alert('Thêm mới khách hàng');
+	}
 	function viewDetail(customerId) {
 		alert('Xem thông tin chi tiết khách hàng ' + customerId);
 	}
