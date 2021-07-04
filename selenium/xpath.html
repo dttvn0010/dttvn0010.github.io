@@ -1,0 +1,68 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="container mt-3">
+    <div class="form-group">
+		<h3>Danh sách khách hàng</h3>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>STT</th>
+					<th>Tên</th>
+					<th>SĐT</th>
+					<th>Địa chỉ</th>
+					<th style="width:10%"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Nguyễn Văn An</td>
+					<td>0123456789</td>
+					<td>Hà Nội</td>
+					<td>
+						<a href="javascript:viewDetail(1)">
+							<i class="fa fa-eye"></i>
+						</a>
+						&nbsp;
+						<a href="javascript:editItem(1)">
+							<i class="fa fa-edit"></i>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Nguyễn Thị Ban</td>
+					<td>0123456780</td>
+					<td>TP.HCM</td>
+					<td>
+						<a href="javascript:viewDetail(2)">
+							<i class="fa fa-eye"></i>
+						</a>
+						&nbsp;
+						<a href="javascript:editItem(2)">
+							<i class="fa fa-edit"></i>
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+        <button class="btn btn-primary" onclick="btnClick()">OK</button>
+        <span id="count" class="ml-3" style="font-size: 16;"></span>
+    </div>
+</div>
+
+<script>
+    var count = 0;
+    function btnClick() {
+        alert('OK');
+    }
+	function viewDetail(customerId) {
+		alert('Xem thông tin chi tiết khách hàng ' + customerId);
+	}
+	
+	function editItem(customerId) {
+		alert('Chỉnh sửa thông tin khách hàng ' + customerId);
+	}
+</script>
