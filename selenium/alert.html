@@ -1,9 +1,13 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
 
+<div class="container mt-3">
+	<button class="btn btn-primary" onclick="showAlert()">Tiếp tục</button>
+</div>
 <script>
-if(confirm('Bạn có muốn tiếp tục?')) {
-    location.href = 'hello.html';
+function showAlert() {
+	if(confirm('Bạn có muốn tiếp tục?')) {
+		location.href = 'hello.html';
+	}
 }
-   
 </script>
