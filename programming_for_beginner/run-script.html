@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/theme/ayu-mirage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/mode/python/python.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/addon/comment/comment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/keymap/sublime.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="./lib/brython-runner.bundle.js"></script>
+    <script>
+        function getParameterByName(name, url = window.location.href) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+    </script>
+</head>
+<body>
+    <div class="dev-box">
+        <div class="toolbar-row">
+            <button class="toolbar-button" onclick="run()">
+                Run
+            </button>
+        </div>
+        <div class="workspace-row">
+            <div class="editor-column">
+                <div class="editor" id="editor"></div>
+            </div>
+            <div class="run-column">
+                <div class="output-box" id="output">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Initialize the code editor.
+        const CODEMIRROR_OPTIONS = {
+            lineNumbers: true,
+            lineSeparator: '\n',
+            mode: undefined,
+            theme: 'ayu-mirage',
+            fontSize: 14,
+            indentUnit: 4,
+            tabSize: 4,
+            indentWithTabs: false,
+            lineWrapping: true,
+            readOnly: false,
+            smartIndent: true,
+            matchBrackets: true,
+            autoCloseBrackets: true,
+            showTrailingSpace: true,
+            keyMap: 'sublime',
+            extraKeys: null,
+            showInvisibles: true,
+            viewportMargin: Infinity,
+        }
+        let editor;
+        let runner;
+
+        async function documentReady() {
+            const codeStoreKey = 'brython-runner-dev-code';
+            const scriptfile = getParameterByName('scriptfile');
+            let code = 'print("hello world")';
+            
+            if(scriptfile) {
+                const url = `https://raw.githubusercontent.com/dttvn0010/dttvn0010.github.io/master/programming_for_beginner/src/${scriptfile}`;
+                const resp = await fetch(url);
+                code = await resp.text();
+            }
+
+            editor = CodeMirror(document.getElementById('editor'), {
+                ...CODEMIRROR_OPTIONS,
+                mode: 'python',
+                value: code,
+            })
+            editor.on('change', (editor, change) => {
+                localStorage.setItem(codeStoreKey, editor.getDoc().getValue())
+            })
+            runner = new BrythonRunner({
+                stdout: {
+                    write(content) {
+                        var el = document.createElement('code')
+                        var text = document.createTextNode(content)
+                        el.appendChild(text)
+                        document.getElementById('output').appendChild(el)  
+                    },
+                    flush() { }
+                },
+                stderr: {
+                    write(content) {
+                        var el = document.createElement('code')
+                        var text = document.createTextNode(content)
+                        el.appendChild(text)
+                        el.setAttribute('class', 'error')
+                        document.getElementById('output').appendChild(el)
+                    },
+                    flush() { }
+                },
+                stdin: {
+                    async readline() {
+                        var data = prompt()
+                        
+                        var el = document.createElement('code')
+                        var text = document.createTextNode(data + '\n')
+                        el.appendChild(text)
+                        document.getElementById('output').appendChild(el)  
+
+                        return data
+                    },
+                }
+            })
+        }
+        function clearOutput() {
+            document.getElementById('output').innerHTML = ''
+        }
+        function getCode() {
+            return editor.getDoc().getValue()
+        }
+        function run() {
+            clearOutput()
+            const code = getCode()
+            runner.runCode(code)
+        }
+        documentReady();
+    </script>
+    </body>
+</html>
