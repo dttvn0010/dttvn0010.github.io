@@ -1,0 +1,54 @@
+うんどうします;運動します;undoushimasu;exercise
+せいこうします;成功します;seikoushimasu;succeed
+しっぱいし;失敗します;shippaishimasu;fail
+ごうかくし;合格します;goukakushimasu;pass
+もどります;戻ります;modorimasu;return
+やみます;やみます;yamimasu;stop
+はれます;晴れます;haremasu;sunny
+くもります;曇ります;kumorimasu;cloudy
+ふきます;吹きます;fukimasu;windy
+なおります;治ります/直ります;naorimasu;fix
+つづきます;続きます;tsudukimasu;continue
+ひきます;ひきます;hikimasu;sick
+ひやします;冷やします;hiyashimasu;chill
+しんぱい;心配;shinpai;worried
+じゅうぶん;十分;juubun;suficient
+おかしい;おかしい;okashii;strange
+うるさい;うるさい;urusai;noisy
+やけど;やけど;yakedo;burn
+けが;けが;kega;injury
+せき;せき;seki;cough
+インフルエンザ;インフルエンザ;infuruenza;flu
+そら;空;sora;sky
+たいよう;太陽;taiyou;sun
+ほし;星;hoshi;star
+つき;月;tsuki;moon
+かぜ;風;kaze;wind
+きた;北;kita;north
+みなみ;南;minami;south
+にし;西;nishi;west
+ひがし;東;higashi;east
+すいどう;水道;suidou;running water
+エンジン;エンジン;enjin;engine
+チーム;チーム;chimu;team
+こんや;今夜;konya;tonight
+ゆうがた;夕方;yuugata;evening
+おそく;遅く;osoku;late
+こんなに;こんなに;konnani;in this way
+そんなに;そんなに;sonnani;in that way
+あんなに;あんなに;annani;in that (far) way
+もしかしたら;もしかしたら;moshikashitara;maybe
+それはいけませんね;それはいけませんね;sorehaikemasenne;that's not good
+い;胃;i;stomache
+はたらきすぎ;働きすぎ;hatarakisugi;overwork
+むりをします;無理をします;muriwoshimasu;overdo
+ゆっくりします;ゆっくりします;yukkurishimasu;take a rest
+ほしうらない;星占い;hoshiuranai;horoscope
+おうしざ;牡牛座;oushiza;taurus
+こまります;困ります;komarimasu;trouble
+たからくじ;宝くじ;takarakuji;lottery
+あたります;当たります;atarimasu;hit
+けんこう;健康;kenkou;health
+れんあい;恋愛;renai;love
+こいびと;恋人;koibito;lover
+かねもち;金持ち;kanemochi;rich man

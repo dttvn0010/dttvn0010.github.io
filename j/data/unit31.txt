@@ -1,0 +1,46 @@
+はじまります;始まります;hajimarimasu;begin
+つづけます;続けます;tsudukemasu;continue
+みつけます;見つけます;mitsukemasu;find
+うけます;受けます;ukemasu;take (exam)
+にゅうがくし;入学しま;nyuugakushimasu;enroll
+そつぎょうしま;卒業しま; sotsugyoushimasu;graduate
+しゅっせきします;出席します;shussekishimasu;take part in
+きゅうけいします;休憩します;kyuukeishimasu;have a break
+れんきゅう;連休;renkyuu;consecutive holidays
+さくぶん;作文;sakubun;writing
+てんらんかい;展覧会;tenrankai;exhibition
+けっこんしき;結婚式;kekkonshiki;wedding
+そうしき;葬式;soushiki;funeral
+しき;式;shiki;ceremony
+ほんしゃ;本社;honsha;main office
+してん;支店;shiten;branch
+きょうかい;教会;kyoukai;church
+だいがくいん;大学院;daigakuin;graduate school
+どうぶつえん;動物園;doubutsuen;zoo
+おんせん;温泉;onsen;hot spring
+おきゃく;お客;okyaku;customer
+だれか;だれか;dareka;someone
+のほう;の方;nohou;direction
+ずっと;ずっと;zutto;consecutively
+のこります;残ります;nokorimasu;remain
+つきに;月に;tsukini;a month
+ふつうの;普通の;futsuuno;common,usual
+むら;村;mura;village
+えいがかん;映画館;eigakan;cinema
+いや;嫌;iya;dislike
+そら;空;sora;sky
+とじます;閉じます;tojimasu;close
+とかい;都会;tokai;city
+こどもたち;子供たち;kodomotachi;kids
+じゆうに;自由に;jiyuuni;freely
+せかいじゅう;世界中;sekaijuu;in the world
+あつまります;集まります;atsumarimasu;gather
+うつくしい;美しい;utsukushii;beautiful
+しぜん;自然;shizen;natural
+すばらしさ;すばらしさ;subarashisa;greatness
+きがつきます;気がつきます;kigatsukimasu;notice
+
+
+
+
+

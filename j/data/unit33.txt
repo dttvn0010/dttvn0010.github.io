@@ -1,0 +1,46 @@
+にげます;逃げます;nigemasu;run away
+さわぎます;騒ぎます;sawagimasu;make noise
+あきらめます;あきらめます;akiramemasu;give up
+なげます;投げます;nagemasu;throw
+まもります;守ります;mamorimasu;protect
+あげます;上げます;agemasu;raise
+さげます;下げます;sagemasu;lower
+つたえます;伝えます;tsutaemasu;tell
+ちゅういします;注意します;chuuishimasu;be careful
+はずします;外します;hazushimasu;remove
+だめ;だめ;dame;broken
+せき;席;seki;seat
+せんたくき;洗濯機;sentakuki;washer
+きそく;規則;kisoku;rule
+しようきんし;使用禁止;shiyoukinshi;do not use
+たちいりきんし;立入禁止;tachiirikinshi;do not enter
+いりぐち;入口;iriguchi;entrance
+でぐち;出口;deguchi;exit
+ひじょうぐち;非常口;hijouguchi;emergency exit
+むりょう;無料;muryou;free
+ほんじつきゅうぎょう;本日休業;honjitsukyuugyou;closed today
+えいぎょうちゅう;営業中;eigyouchuu;open now
+しようちゅう;使用中;shiyouchuu;in use
+ちゅうしゃいはん;駐車違反;chuushaihan;parking violation
+そりゃあ;そりゃあ;soryaa;oh
+いない;以内;inai;within
+けいさつ;警察;keisatsu;police
+ばっきん;罰金;bakkin;penalty
+でんぽう;電報;denpou;telegram
+ひとびと;人々;hitobito;people
+きゅうよう;急用;kyuuyou;urgent task
+うちます;打ちます;uchimasu;send
+でんぽうだい;電報代;denpoudai;telegram fee
+できるだけ;できるだけ;dekirudake;try best
+みじかく;短く;mijikaku;short
+また;また;mata;in addition
+たとえば;例えば;tatoeba;for example
+キトク;危篤;kitoku;critical
+おもいびょうき;重い病気;omoibyouki;heavy sickness
+あす;明日;asu;tomorrow
+るす;留守;rusu;absence
+るすばん;留守番;rusuban;house watching
+いわい;祝い;iwai;celebration
+なくなります;亡くなります;nakunarimasu;die
+かなしみ;悲しみ;kanashimi;sorrow
+りようします;利用します;riyoushimasu;use

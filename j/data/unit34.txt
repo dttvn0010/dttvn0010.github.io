@@ -1,0 +1,41 @@
+みがきます;磨きます;migakimasu;polish
+くみたてます;組み立てます;kumitatemasu;assemble
+おります;折ります;orimasu;fold
+きがつきます;気がつきます;kigatsukimasu;notice
+つけます;漬けます;tsukemasu;soak with
+みつかります;見つかります;mitsukarimasu;found
+します;します;shimasu;wear (tie)
+しつもんします;質問します;shitsumonshimasu;ask
+ほそい;細い;hosoi;thin
+ふとい;太い;futoi;fat
+ぼんおどり;盆踊り;bonodori;Bon festival dance
+せつめいしょ;説明書;setsumeisho;manual
+ず;図;zu;map
+せん;線;sen;line
+やじるし;矢印;yajirushi;arrow
+くろ;黒;kuro;black
+しろ;白;shiro;white
+あか;赤;aka;red
+あお;青;ao;blue
+こん;紺;kon;navy
+きいろ;黄色;kiiro;yellow
+しょうゆ;醤油;shouyu;soy source
+ソース;ソース;sosu;source
+ゆうべ;夕べ;yuube;last evening
+さっき;先;sakki;recent,last
+さどう;茶道;sadou;tea ceremony
+たてます;点てます;tatemasu;make tea
+さきに;先に;sakini;previous
+のせます;載せます;nosemasu;put
+にがい;苦い;nigai;bitter
+おやこどんぶり;親子どんぶり;oyakodonburi;oyakodon
+ざいりょう;材料;zairyou;material
+とりにく;鳥肉;toriniku;chicken
+たまねぎ;玉ねぎ;tamanegi;onion
+よんぶんのいち;4分の１;yonbunnoichi;quarter
+ちょうみりょう;調味料;choumiryou;seasoning
+なべ;鍋;nabe;pan
+ひ;火;hi;fire
+ひにかけます;火にかけます;hinikakemasu;put on fire
+に(え)ます;煮(え)ます;ni(e)masu;boil
+どんぶり;丼;donburi;bowl
