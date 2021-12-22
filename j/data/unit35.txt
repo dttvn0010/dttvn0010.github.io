@@ -35,4 +35,4 @@
 まじわります;交わります;majiwarimasu;associate with
 ことわざ;諺;kotowaza;proverb
 なかよくします;仲よくします;nakayokushimasu;in harmony/in good relationship
-ひつよう;hitsuyou;必要;hitsuyou;estential
+ひつよう;必要;hitsuyou;estential

@@ -39,8 +39,3 @@
 しぜん;自然;shizen;natural
 すばらしさ;すばらしさ;subarashisa;greatness
 きがつきます;気がつきます;kigatsukimasu;notice
-
-
-
-
-
