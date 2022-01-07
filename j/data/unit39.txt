@@ -1,0 +1,42 @@
+こたえます;答えます;kotaemasu;answer
+たおれます;倒れます;taoremasu;fall down
+やけます;焼けます;yakemasu;burned
+とおります;通ります;toorimasu;pass by
+しにます;死にます;shinimasu;die
+びっくりします;びっくりします;bikkurishimasu;surprised
+がっかりします;がっかりします;gakkarishimasu;disappointed
+あんしんします;安心します;anshinshimasu;feel safe
+ちこくします;遅刻します;chikokushimasu;come late
+そうたいします;早退します;soutaishimasu;leave early
+けんかします;けんかします;kenkashimasu;fight
+りこんします;離婚します;rikonshimasu;divorce
+ふくざつ;複雑;fukuzatsu;compilcated
+じゃま;邪魔;jama;obstacle
+きたない;汚い;kitanai;dirty
+うれしい;嬉しい;ureshii;happy
+かなしい;悲しい;kanashii;sorrow
+はずかしい;恥ずかしい;hazukashii;embarrassing
+じしん;地震;jishin;earthquake
+たいふう;台風;taifuu;storm
+かじ;火事;kaji;fire
+じこ;事故;jiko;accident
+みあい;見合い;miai;introduce
+だい;代;dai;fee
+フロント;フロント;furonto;front
+ごうしつ;号室;goushitsu;room number
+あせ;汗;ase;sweat
+タオル;タオル;taoru;towel
+せっけん;せっけん;sekken;soap
+おおぜい;大勢;oozei;many people
+おつかれさまでした;お疲れ様でした;otsukaresamadeshita;thank you for your hard work
+うかがいます;伺います;ukagaimasu;visit
+とちゅうで;途中で;tochuude;half way
+トラック;トラック;torakku;truck
+ぶつかります;打つかります;butsukarimasu;strike
+ならびます;並びます;narabimasu;queue
+おとな;大人;otona;adult
+ようふく;洋服;youfuku;western style clothes
+せいようかします;西洋化します;seiyoukashimasu;westernize
+あいます;合います;aimasu;match/fit
+せいじんしき;成人式;seijinshiki;Adult ceremony
+ふしぎ;不思議;fushigi;mysterious

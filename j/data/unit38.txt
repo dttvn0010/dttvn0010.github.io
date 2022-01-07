@@ -1,0 +1,33 @@
+そだてます;育てます;sodatemasu;raise
+はこびます;運びます;hakobimasu;carry
+なくなります;亡くなります;nakunarimasu;die
+にゅういんします;入院します;nyuuinshimasu;enter hospital
+たいいんします;退院します;taiinshimasu;exit hospital
+いれます;入れます;iremasu;turn on
+きります;切ります;kirimasu;turn off
+かけます;掛けます;kakemasu;lock
+きもちがいい;気持ちがいい;kimochigaii;pleasant
+きもちがわるい;気持ちが悪い;kimochigawarui;unpleasant
+あかちゃん;赤ちゃん;akachan;baby
+しょうがっこう;小学校;shougakkou;primary school
+ちゅうがっこう;中学校;chuugakkou;secondary school
+えきまえ;駅前;ekimae;station front
+かいがん;海岸;kaigan;coast
+うそ;嘘;uso;lie
+しょるい;書類;shorui;document
+でんげん;電源;dengen;power supply
+おさきに [しつれいします];お先に[失礼します];osakini［shitsureishimasu;sorry, I have to go now
+けんきゅうしつ;研究室;kenkyuushitsu;lab
+きちんと;きちんと;kichinto;properly
+さつ;冊;satsu;book
+[はんこを～]おします;[はんこを～] 押します;[hankowo～］oshimasu;imprint
+ふたご;双子;futago;twin
+しまい;姉妹;shimai;sibling
+にています;似ています;niteimasu;similar
+せいかく;性格;seikaku;personality
+おとなしい;大人しい;otonashii;docile
+せわをします;世話をします;sewawoshimasu;take care
+たちます;経ちます;tachimasu;(time)pass
+だいすき;大好き;daisuki;really like
+てん;点;ten;point
+クラス;クラス;kurasu;class

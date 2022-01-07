@@ -1,0 +1,44 @@
+かぞえます;数えます;kazoemasu;count
+はかります;測ります、量ります;hakarimasu;measure
+たしかめます;確かめます;tashikamemasu;confirm
+しゅっぱつします;出発します;shuppatsushimasu;start
+とうちゃくします;到着します;touchakushimasu;arrive
+よいます;酔います;yoimasu;drunk
+ちきゅう;地球;chikyuu;earth
+ぼうねんかい;忘年会;bounenkai;year-end party
+しんねんかい;新年会;shinnenkai;new-year party
+にじかい;二次会;nijikai;second party
+たいかい;大会;taikai;grand event
+マラソン;マラソン;marason;marathon
+コンテスト;コンテスト;kontesuto;contest
+おもて;表;omote;surface
+うら;裏;ura;bottom
+へんじ;返事;henji;reply
+もうしこみ;申し込み;moushikomi;application
+ほんとう;本当;hontou;true
+まちがい;間違い;machigai;error
+きず;傷;kizu;wound
+ズボン;ズボン;zubon;pants
+ながさ;長さ;nagasa;length
+おもさ;重さ;omosa;weight
+たかさ;高さ;takasa;height
+おおきさ;大きさ;ookisa;size
+センチ;センチ;senchi;centi
+ミリ;ミリ;miri;milli
+ゆきまつり;雪祭り;yukimatsuri;snow festival
+テスト;テスト;tesuto;test
+せいせき;成績;seiseki;grades/result
+ところで;所で;tokorode;by the way
+いらっしゃいます;いらっしゃいます;irasshaimasu;welcome
+ようす;様子;yousu;state
+じけん;事件;jiken;incident
+ばくだん;爆弾;bakudan;bomb
+つみます;積みます;tsumimasu;stack
+うんてんしゅ;運転手;untenshu;driver
+はなれた;離れた;hanareta;distant
+きゅうに;急に;kyuuni;suddenly
+うごかします;動かします;ugokashimasu;move
+いっしょうけんめい;一生懸命;isshoukenmei;as best as possible
+はんにん;犯人;hannin;culprit
+てに　いれます;手に入れます;teni　iremasu;get/gain
+うわさします;うわさします;uwasashimasu;rumor

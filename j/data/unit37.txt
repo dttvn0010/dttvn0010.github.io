@@ -1,0 +1,47 @@
+ほめます;褒めます;homemasu;compliment
+しかります;叱ります;shikarimasu;scold
+さそいます;誘います;sasoimasu;invite
+おこします;起こします;okoshimasu;wake up
+しょうたいします;招待します;shoutaishimasu;invite
+たのみます;頼みます;tanomimasu;ask for
+ちゅういします;注意します;chuuishimasu;be careful
+とります;盗ります;torimasu;steal
+ふみます;踏みます;fumimasu;step on
+こわします;壊します;kowashimasu;break
+よごします;汚します;yogoshimasu;make dirty
+おこないます;行います;okonaimasu;proceed
+ゆしゅつします;輸出します;yushutsushimasu;export
+ゆにゅうします;輸入します;yunyuushimasu;import
+ほんやくします;翻訳します;honyakushimasu;translate
+はつめいします;発明します;hatsumeishimasu;invent
+はっけんします;発見します;hakkenshimasu;discover
+せっけいします;設計します;sekkeishimasu;design
+こめ;米;kome;rice
+むぎ;麦;mugi;wheat
+せきゆ;石油;sekiyu;crude oil
+げんりょう;原料;genryou;material
+デート;デート;deto;date
+どろぼう;泥棒;dorobou;thief
+けいかん;警官;keikan;police
+けんちくか;建築家;kenchikuka;architect
+かがくしゃ;科学者;kagakusha;scientist
+まんが;漫画;manga;comic
+せかいじゅう;世界中;sekaijuu;over the world
+じゅう;中;juu;everywhere
+によって;によって;niyotte;due to
+よかったですね;よかったですね;yokattadesune;what a luck
+うめたてます;埋め立て;umetatemasu;land fill
+ぎじゅつ;技術;gijutsu;technical
+とち;土地;tochi;land
+そうおん;騒音;souon;noise
+りようします;利用します;riyoushimasu;use
+アクセス;アクセス;akusesu;access
+せいき;世紀;seiki;century
+ごうか;豪華;gouka;luxury
+ちょうこく;彫刻;choukoku;sculpture
+ねむります;眠ります;nemurimasu;sleep
+ほります;彫ります;horimasu;carve
+なかま;仲間;nakama;coworker
+そのあと;そのあと;sonoato;after that
+いっしょうけ;一生懸命;isshoukenmei;try one best
+ねずみ;鼠;nezumi;mouse
