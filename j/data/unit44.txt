@@ -1,0 +1,33 @@
+なきます;泣きます;nakimasu;cry
+わらいます;笑います;waraimasu;laugh
+かわきます;乾きます;kawakimasu;dry
+ぬれます;濡れます;nuremasu;wet
+すべります;滑ります;suberimasu;slip
+[じこが～]おきます;[事故が～]起きます;［jikoga～］okimasu;[accident] happen
+ちょうせつします;調節します;chousetsushimasu;adjust
+ていねい;丁寧;teinei;polite
+こまかい;細かい;komakai;detail
+こい;濃い;koi;dense
+うすい;薄い;usui;diluted
+くうき;空気;kuuki;air
+なみだ;涙;namida;cry
+わしょく;和食;washoku;Japanese meal
+ようしょく;洋食;youshoku;Western meal
+りょう;量;ryou;amount
+―ばい;―倍;-bai;time
+はんぶん;半分;hanbun;half
+シングル;シングル;shinguru;single
+ツイン;ツイン;tsuin;twin
+たんす;たんす;tansu;chest drawer
+せんたくもの;洗濯物;sentakumono;washing clothes
+りゆう;理由;riyuu;reason
+カット;カット;katto;cut
+シャンプー;シャンプー;shanpu;shampoo
+ショート;ショート;sho-to;short
+おつかれさまでした;お疲れ様でした;otsukaresamadeshita;thanks
+いやがります;嫌がります;iyagarimasu;hate
+じゅんじょ;順序;junjo;order
+ひょうげん;表現;hyougen;expression
+わかれます;別れます;wakaremasu;break up
+これら;これら;korera;these stuff
+えんぎが　わるい;縁起が悪い;engiga　warui;bad luck

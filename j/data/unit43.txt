@@ -1,0 +1,26 @@
+ふえます;増えます;fuemasu;increase
+へります;減ります;herimasu;decrease
+あがります;上がります;agarimasu;go up
+さがります;下がります;sagarimasu;go down
+きれます;切れます;kiremasu;cut
+とれます;取れます;toremasu;come off
+おちます;落ちます;ochimasu;fall
+なくなります;無くなります;nakunarimasu;be lost/run out
+じょうぶ;丈夫;joubu;durable
+へん;変;hen;strange
+しあわせ;幸せ;shiawase;happy
+うまい;うまい;umai;delicious
+まずい;まずい;mazui;insipid
+つまらない;詰らない;tsumaranai;uninteresting
+ガソリン;ガソリン;gasorin;gasoline
+だんぼう;暖房;danbou;heater
+れいぼう;冷房;reibou;cooler
+センス;センス;sensu;sense
+いまにも;今にも;imanimo;soon
+かいいん;会員;kaiin;member
+てきとう;適当;tekitou;appropriate
+ねんれい;年齢;nenrei;age
+しゅうにゅう;収入;shuunyuu;income
+ぴったり;ぴったり;pittari;tightly, closely
+そのうえ;そのうえ;sonoue;more over
+ドライブ;ドライブ;doraibu;drive

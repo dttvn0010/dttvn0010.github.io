@@ -1,0 +1,41 @@
+つつみます;包みます;tsutsumimasu;wrap
+わかします;沸かします;wakashimasu;boil
+まぜます;混ぜます;mazemasu;blend
+けいさんします;計算します;keisanshimasu;calculate
+あつい;厚い;atsui;thick
+うすい;薄い;usui;thin
+べんごし;弁護士;bengoshi;lawyer
+おんがくか;音楽家;ongakuka;musician
+きょういく;教育;kyouiku;education
+ぶんか;文化;bunka;culture
+しゃかい;社会;shakai;society
+ほうりつ;法律;houritsu;law
+せんそう;戦争;sensou;war
+へいわ;平和;heiwa;peace
+もくてき;目的;mokuteki;purpose
+あんぜん;安全;anzen;safe
+ろんぶん;論文;ronbun;thesis
+かんけい;関係;kankei;relationship
+ミキサー;ミキサー;mikisa;mixer
+やかん;薬缶;yakan;kettle
+せんぬき;栓抜き;sennuki;bottle opener
+かんきり;缶切り;kankiri;tin opener
+かんづめ;缶詰;kandume;canned food
+ふろしき;風呂敷;furoshiki;wrapping cloth
+そろばん;算盤;soroban;abacus
+たいおんけい;体温計;taionkei;thermometer
+ざいりょう;材料;zairyou;material
+いし;石;ishi;stone
+ピラミッド;ピラミッド;piramiddo;pyramid
+データ;データ;de-ta;data
+ファイル;ファイル;fairu;file
+なぜ;なぜ;naze;why
+こくれん;国連;kokuren;United Nations
+ローン;ローン;ron;loan
+セット;セット;setto;set
+カップラーメン;カップラーメン;kappura-men;cup noodle
+インスタントラーメン;インスタントラーメン;insutantora-men;instance noodle
+しょくひん;食品;shokuhin;food
+ちょうさ;調査;chousa;investigate
+また;また;mata;also
+のかわりに;の代わりに;nokawarini;instead of
