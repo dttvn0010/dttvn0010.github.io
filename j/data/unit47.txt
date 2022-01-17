@@ -1,0 +1,30 @@
+あつまります;集まります;atsumarimasu;gather
+わかれます;別れます;wakaremasu;split up
+ながいきします;長生きします;nagaikishimasu;live long
+あじ;味;aji;taste
+におい;匂い;nioi;smell
+ひどい;酷い;hidoi;cruel/harsh
+こわい;怖い;kowai;scared
+てんきよほう;天気予報;tenkiyohou;weather forecast
+はっぴょう;発表;happyou;announcement
+じっけん;実験;jikken;experiment
+じんこう;人口;jinkou;poplulation
+かがく;科学;kagaku;science
+いがく;医学;igaku;medicine
+ぶんがく;文学;bungaku;literature
+きゅうきゅうしゃ;救急車;kyuukyuusha;ambulance
+さんせい;賛成;sansei;agree
+はんたい;反対;hantai;oppose
+だんせい;男性;dansei;male
+じょせい;女性;josei;female
+とう;島;tou;island
+こんやくします;婚約します;konyakushimasu;engage
+あいて;相手;aite;partner
+しりあいます;知り合います;shiriaimasu;get acquainted
+へいきんじゅみょう;平均寿命;heikinjumyou;average life
+くらべます;比べます;kurabemasu;compare
+はかせ;博士;hakase;doctor
+のう;脳;nou;brain
+ホルモン;ホルモン;horumon;hormone
+しらべ;調べ;shirabe;investigation
+けしょう;化粧;keshou;make up
