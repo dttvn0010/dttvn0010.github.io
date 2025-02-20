@@ -1,6 +1,6 @@
 <script>
-  let url = "https://auth-server-fis-mbf-azladin-dev.dev.cluster02.fis-cloud.xplat.online/auth/get-current-user-info";
-  let token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsZWU2NiIsInNjb3BlIjoiIiwiaXNzIjoiYXV0aF9zZXJ2ZXIiLCJleHAiOjE3NDAwNjc0MTMsImlhdCI6MTc0MDA0OTQxMywianRpIjoiOGQzYWNkNjEtMmYwOS00YmZiLThhNWUtYmE2OGFmMzgyMzUxIn0.Iexa6sg5LjSxGUOQCknQOR8nkCWPUvFWX-3tf1hf4Zs";
+  let url = "http://localhost:9095/auth/get-current-user-info";
+  let token = "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoX3NlcnZlciIsInN1YiI6ImxlZTY2IiwiZXhwIjoxNzQwMDY4NTczLCJpYXQiOjE3NDAwNTA1NzMsImp0aSI6IjE3MWY2ZGQ5LTI1NjgtNDMyMi04YTRmLWE1NmI4ZWIwNmUxNiIsInNjb3BlIjoiIn0.OcAiZkIKWp5MzvI8JGo9uUKb2bEyEBQx9plgBIIequ0";
   let headers={Authorization: "Bearer "+token};
   fetch(url,{headers}).then(resp => resp.json()).then(result => console.log(result));
-</script> 
+</script>
